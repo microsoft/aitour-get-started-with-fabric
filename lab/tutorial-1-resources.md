@@ -22,12 +22,12 @@ In this part of the tutorial, you set up the environment. Specifically, you crea
 
 1. From the **System overview** page, select the KQL database you created in the previous step.
 
-    :::image type="content" source="media/tutorial/select-tutorial-database.png" alt-text="Screnshot of the System overview for new eventhouse with Tutorial database selected and highlighted with a red box.":::
+    :::image type="content" source="media/lab/select-tutorial-database.png" alt-text="Screnshot of the System overview for new eventhouse with Tutorial database selected and highlighted with a red box.":::
 
 2. In the **Database details** section, select the **pencil icon** next to **OneLake availability**.
 3. Toggle the button to **Active** and select **Done**.
 
-    :::image type="content" source="media/tutorial/one-lake-availability.png" alt-text="Screenshot showing how to turn on OneLake availability.":::
+    :::image type="content" source="media/lab/one-lake-availability.png" alt-text="Screenshot showing how to turn on OneLake availability.":::
 
 
 ## Next step

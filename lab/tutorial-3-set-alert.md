@@ -8,7 +8,7 @@ In this part of the tutorial, you learn how to set an alert on your event stream
 2. Select the event stream you created in the previous tutorial.
     The event stream details page opens.
     
-    :::image type="content" source="media/tutorial/set-alert.png" alt-text="Screenshot of event streams details page and set alert selected." lightbox="media/tutorial/set-alert.png":::
+    :::image type="content" source="media/lab/set-alert.png" alt-text="Screenshot of event streams details page and set alert selected." lightbox="media/lab/set-alert.png":::
 
 3. Select **Set alert**
 4. A new pane opens. Fill in the fields as follows:
@@ -25,7 +25,7 @@ In this part of the tutorial, you learn how to set an alert on your event stream
     | Workspace | The workspace in which you created resources|
     | Item | Tutorial-Reflex |
 
-    :::image type="content" source="media/tutorial/alert-logic.png" alt-text="Screenshot of Set alert pane in Real-Time Intelligence.":::
+    :::image type="content" source="media/lab/alert-logic.png" alt-text="Screenshot of Set alert pane in Real-Time Intelligence.":::
 
 5. Select **Create**.
 
