@@ -42,12 +42,11 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
     ii. Select **Add all fields**
     iii. Select **+ Add field**.
     iv. From the **Built-in Date Time Function** dropdown, select **SYSTEM.Timestamp()**
-
-        :::image type="content" source="media/lab/system-timestamp.png" alt-text="Screenshot showing the system timestamp selected in the event stream manage fields tile in Real-Time Intelligence.":::
+       :::image type="content" source="media/lab/system-timestamp.png" alt-text="Screenshot showing the system timestamp selected in the event stream manage fields tile in Real-Time Intelligence.":::
 
     v. Enter *Timestamp* as the **Field name**.
     vi. Select **Add**.
-7. Select **Save**.
+8. Select **Save**.
 
     The *TutorialTransform* tile is now displayed but with an error, because the destination has not been set.
 
