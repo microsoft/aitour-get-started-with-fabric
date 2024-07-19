@@ -7,7 +7,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 1. From the navigation bar, select **Real-Time hub**.
 2. Select **+ Get events**.
     
-    :::image type="content" source="media/tutorial/get-events.png" alt-text="Screenshot of Real-time hub with get events highlighted.":::
+    :::image type="content" source="media/lab/get-events.png" alt-text="Screenshot of Real-time hub with get events highlighted.":::
 
 3. The **Get events** pane opens. Select **Sample data**. 
 
@@ -33,11 +33,10 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
 1. Select **Open Eventstream** from the notification that appears after creating the event stream, or browse to the event stream from the Real-time hub and select **Open Eventstream**.
 2. From the menu ribbon, select **Edit**.
-3. In the event stream authoring canvas, select the event stream tile in the center.
-4. Select the down arrow on the **Transform events or add destination** tile.  
-5. Select **Manage fields**. The tile is renamed to *Manage_fields*.
-6. Select the pencil icon on the *Manage_fields* tile.
-7. In the **Manage fields** pane, do the following actions:
+3. In the event stream authoring canvas select the down arrow on the **Transform events or add destination** tile.  
+4. Select **Manage fields**. The tile is renamed to *Manage_fields*.
+5. Select the pencil icon on the *Manage_fields* tile.
+6. In the **Manage fields** pane, do the following actions:
     i. In **Operation name**, enter *TutorialTransform*. 
     ii. Select **Add all fields**
     iii. Select **+ Add field**.
@@ -47,7 +46,9 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
     v. Enter *Timestamp* as the **Field name**.
     vi. Select **Add**.
-8. Select **Save**.
+7. Select **Save**.
+
+    The *TutorialTransform* tile is now displayed but with an error, because the destination has not been set.
 
 ## Create a destination
 
@@ -70,11 +71,11 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
     | **Input data format** | *JSON* |  
 
 5. Select **Save**.
-6. Select **Publish**.
+6. From the menu ribbon select **Publish**.
 
 The event stream is now set up to transform events and send them to a KQL database.
 
 ## Next step
 
 > [!div class="nextstepaction"]
-> [Tutorial part 3: Set an alert on your event stream](tutorial-3-set-alert.md)
+> [Tutorial part 3: Query streaming data in a KQL queryset](tutorial-3-query-data.md)

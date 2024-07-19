@@ -1,6 +1,6 @@
-# Real-Time Intelligence tutorial part 5: Create a Real-Time dashboard
+# Real-Time Intelligence tutorial part 4: Create a Real-Time dashboard
 
-In this part of the tutorial, you learn how to create a Real-Time dashboard in Real-Time Intelligence. You create a KQL query, create a Real-Time dashboard, add a new tile to the dashboard, and explore the data visually by adding an aggregation.
+In this part of the tutorial, learn how to create a Real-Time dashboard in Real-Time Intelligence. You create a KQL query, create a Real-Time dashboard, add a new tile to the dashboard, and explore the data visually by adding an aggregation.
 
 ## Create a Real-Time dashboard
 
@@ -38,21 +38,23 @@ The new dashboard, *TutorialDashboard*, opens with the *Recent bikes by Bikepoin
 
     :::image type="content" source="media/lab/new-tile.png" alt-text="Screenshot of Real-Time dashboard in editing mode with new tile selected.":::
 
-3. Enter the following query:
+3. In the query editor enter the following query:
 
     ```kusto
     TutorialTable
     | where Neighbourhood == "Chelsea"
     ```
 
-4. In **Tile name**, enter *Chelsea bikes*. 
-5. Select **Apply changes**.
+4. From the menu ribbon Select **Apply changes**.
+5. This creates a new tile, rename the tile by selecting the **ellipsis icon** on the top right corner of the tile, the select **Rename tile**.
+6. Rename the tile to *Chelsea bikes*. 
+
 
 ## Explore the data visually by adding an aggregation
 
 1. On the new **Chelsea bikes** tile, select the **Explore** icon :::image type="icon" source="media/tutorial/explore-icon.png" border="false":::.
 
-    :::image type="content" source="media/lab/add-aggregation.gif" alt-text="GIF of how to visually add and modify the query." border="false":::
+    :::image type="content" source="media/tutorial/add-aggregation.gif" alt-text="GIF of how to visually add and modify the query." border="false":::
 
 2. Select **+ Add** > **Aggregation**.
 3. Select **+ Add grouping**.
@@ -60,9 +62,9 @@ The new dashboard, *TutorialDashboard*, opens with the *Recent bikes by Bikepoin
 5. Select **Apply**.
 
     Notice that the query elements are updated to include the green **count() by Street** aggregation. The resulting table has been changed to show the total count of bike locations by street.
-
+6. Close the **Explore** pane and select **Save** from the menu ribbon to save the changes. 
 
 ## Next step
 
 > [!div class="nextstepaction"]
-> [Tutorial part 6: Create a Power BI report from your KQL queryset](tutorial-6-power-bi-report.md)
+> [Tutorial part 5: Create a Power BI report from your KQL queryset](tutorial-5-power-bi-report.md)

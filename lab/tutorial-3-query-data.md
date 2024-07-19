@@ -1,24 +1,25 @@
-# Real-Time Intelligence tutorial part 4: Query streaming data in a KQL queryset
+# Real-Time Intelligence tutorial part 3: Query streaming data in a KQL queryset
 
 In this part of the tutorial, you learn how to query your streaming data in a [KQL queryset](create-query-set.md). You create a KQL queryset, write a KQL query, and visualize the data in a time chart.
 
 ## Create a KQL queryset
 
-1. Browse to the KQL database you have created in a previous step, named *Tutorial*.
-2. Verify that the data is flowing into the database by viewing the **Size** tile in the database details page. The values in this tile should be greater than zero.
-3. From the ribbon, select **New related item** and choose **KQL Queryset**.
+1. From the navigation bar open the KQL database you created in a previous step, named *Tutorial*.
+2. Verify that the data is flowing into the database by viewing the **Size** tile in the database details page. The values in this tile should be greater than zero. If the values in the **Size** tile are zero, select **Refresh** from the menu ribbon.
+3. From the menu ribbon, select **New related item** and choose **KQL Queryset**.
 
     :::image type="content" source="media/lab/new-queryset.png" alt-text="Screenshot of Tutorial database showing adding a new related item that is a KQL queryset.":::
 
-4. Enter the name for the KQL Queryset: *TutorialQueryset*.
-5. Select **Create**.
-    A new KQL queryset is created and opens in the KQL Queryset editor. It's connected to the *Tutorial* database as a data source, and is prepopulated with several general queries.
+4. Enter the name for the KQL Queryset: *TutorialQueryset* and select **Create**.
+5. Select the *Tutorial* database as the data source for the KQL queryset then select  **Connect**
+6. Select **Create**.
+    A new KQL queryset is created and opens in the KQL Queryset editor. It's connected to the *Tutorial* database as a data source, and is pre-populated with several general queries.
 
 ## Write a KQL query
 
 The name of the table you created in a previous step is *TutorialTable*. Use this (case-sensitive) name as the data source for your query.
 
-1. In the query editor, enter the following query. Then press **Shift + Enter** to run the query.
+1. In the query editor, delete the pre-populated queries and enter the following query. Then press **Shift + Enter** to run the query.
 
     ```kusto
     TutorialTable
@@ -43,4 +44,4 @@ The name of the table you created in a previous step is *TutorialTable*. Use thi
 ## Next step
 
 > [!div class="nextstepaction"]
-> [Tutorial part 5: Create a Real-Time dashboard](tutorial-5-create-dashboard.md)
+> [Tutorial part 4: Create a Real-Time dashboard](tutorial-4-create-dashboard.md)
