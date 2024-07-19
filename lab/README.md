@@ -42,37 +42,37 @@ Now you're ready to complete the exercises in this lab using the Fabric trial li
  
 The exercises are designed to be completed in order because they build on the data and resources created in the previous exercises, so make sure you complete each exercise before moving on to the next one. 
  
-Don't worry if you run out of time to complete the entire lab. All of these exercises (and more) are available on [Microsoft Learn](https://learn.microsoft.com/training/paths/implement-data-science-machine-learning-fabric/).
+Don't worry if you run out of time to complete the entire lab. All of these exercises (and more) are available on [Microsoft Learn](https://learn.microsoft.com/fabric/real-time-intelligence/tutorial-introduction).
  
 Select **Next >** to go to the first exercise.
  
 ===
  
-!INSTRUCTIONS[Create Resources](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-1-resources.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 1: Create Resources](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-1-resources.md)
  
 ===
  
-!INSTRUCTIONS[Get data in the Real-Time hub](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-2-get-real-time-events.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 2: Get data in the Real-Time hub](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-2-get-real-time-events.md)
  
 ===
  
-!INSTRUCTIONS[Query streaming data in a KQL queryset](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-3-query-data.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 3: Query streaming data in a KQL queryset](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-3-query-data.md)
 
 ===
 
-!INSTRUCTIONS[Create a Real-Time dashboard](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-4-create-dashboard.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 4: Create a Real-Time dashboard](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-4-create-dashboard.md)
 
 ===
 
-!INSTRUCTIONS[Create a Power BI report](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-5-power-bi-report.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 5: Create a Power BI report](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-5-power-bi-report.md)
 
 ===
 
-!INSTRUCTIONS[Real-Time Intelligence tutorial part 6: Set an alert on your event stream](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-6-set-alert.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 6: Set an alert on your event stream](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-6-set-alert.md)
 
 ===
 
-!INSTRUCTIONS[Clean up resources](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-7-clean-up-resources.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 7: Clean up resources](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-7-clean-up-resources.md)
 
 ## Discussions
 Use the Discussion page on this repository to ask any questions or continue the learning conversation!

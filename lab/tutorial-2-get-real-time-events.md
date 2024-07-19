@@ -74,7 +74,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 5. Select **Save**.
 6. From the menu ribbon select **Publish**.
 
-The event stream is now set up to transform events and send them to a KQL database.
+The event stream is now set up to transform events and send them to a KQL database. The insights are not yet available to create alerts, you will do this in a later step so you can monitor the number of bikes in real-time. For now, you can move on to the next step to query the data in the KQL database.
 
 ## Next step
 
