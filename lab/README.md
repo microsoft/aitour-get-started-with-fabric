@@ -48,31 +48,31 @@ Select **Next >** to go to the first exercise.
  
 ===
  
-!INSTRUCTIONS[](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-1-resources.md)
+!INSTRUCTIONS[Create Resources](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-1-resources.md)
  
 ===
  
-!INSTRUCTIONS[](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-2-get-real-time-events.md)
+!INSTRUCTIONS[Get data in the Real-Time hub](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-2-get-real-time-events.md)
  
 ===
  
-!INSTRUCTIONS[](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-3-create-query-set.md)
+!INSTRUCTIONS[Query streaming data in a KQL queryset](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-3-query-data.md)
 
 ===
 
-!INSTRUCTIONS[](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-4-query-data.md)
+!INSTRUCTIONS[Create a Real-Time dashboard](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-4-create-dashboard.md)
 
 ===
 
-!INSTRUCTIONS[](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-5-create-dashboard.md)
+!INSTRUCTIONS[Create a Power BI report](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-5-power-bi-report.md)
 
 ===
 
-!INSTRUCTIONS[](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-6-power-bi-report.md)
+!INSTRUCTIONS[Real-Time Intelligence tutorial part 6: Set an alert on your event stream](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-6-set-alert.md)
 
 ===
 
-!INSTRUCTIONS[](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-7-clean-up-resources.md)
+!INSTRUCTIONS[Clean up resources](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-7-clean-up-resources.md)
 
 ## Discussions
 Use the Discussion page on this repository to ask any questions or continue the learning conversation!

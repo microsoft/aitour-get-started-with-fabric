@@ -8,7 +8,7 @@ In this part of the tutorial, you set up the environment. Specifically, you crea
 3. Select **Workspaces** from the left navigation pane. Then select **+ New workspace**.
 4. Enter a name for the workspace, such as *TutorialWorkspace*. Select **Apply** when done.
 
-    :::image type="content" source="media/tutorial/create-workspace.png" alt-text="Screenshot showing how to create a new workspace in Real-Time Intelligence.":::
+    :::image type="content" source="media/lab/create-workspace-side-pane.png" alt-text="Screenshot showing how to create a new workspace in Real-Time Intelligence.":::
 
 ## Create an eventhouse
 

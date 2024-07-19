@@ -1,6 +1,6 @@
 # Real-Time Intelligence tutorial part 3: Query streaming data in a KQL queryset
 
-In this part of the tutorial, you learn how to query your streaming data in a [KQL queryset](create-query-set.md). You create a KQL queryset, write a KQL query, and visualize the data in a time chart.
+In this part of the tutorial, you learn how to query your streaming data in a [KQL queryset](https://learn.microsoft.com/en-us/fabric/real-time-intelligence/create-query-set). You create a KQL queryset, write a KQL query, and visualize the data in a time chart.
 
 ## Create a KQL queryset
 

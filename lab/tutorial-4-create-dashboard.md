@@ -52,9 +52,9 @@ The new dashboard, *TutorialDashboard*, opens with the *Recent bikes by Bikepoin
 
 ## Explore the data visually by adding an aggregation
 
-1. On the new **Chelsea bikes** tile, select the **Explore** icon :::image type="icon" source="media/tutorial/explore-icon.png" border="false":::.
+1. On the new **Chelsea bikes** tile, select the **Explore** icon :::image type="icon" source="media/lab/explore-icon.png" border="false":::.
 
-    :::image type="content" source="media/tutorial/add-aggregation.gif" alt-text="GIF of how to visually add and modify the query." border="false":::
+    :::image type="content" source="media/lab/add-aggregation.gif" alt-text="GIF of how to visually add and modify the query." border="false":::
 
 2. Select **+ Add** > **Aggregation**.
 3. Select **+ Add grouping**.
