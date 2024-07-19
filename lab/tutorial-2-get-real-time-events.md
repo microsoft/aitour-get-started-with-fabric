@@ -38,7 +38,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 5. Select the pencil icon on the *Manage_fields* tile.
 6. In the **Manage fields** pane, do the following actions:
 
-    i. In **Operation name**, enter *TutorialTransform*.
+   i. In **Operation name**, enter *TutorialTransform*.
    ii. Select **Add all fields**
    iii. Select **+ Add field**.
    iv. From the **Built-in Date Time Function** dropdown, select **SYSTEM.Timestamp()**
