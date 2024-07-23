@@ -48,8 +48,8 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
     v. Enter *Timestamp* as the **Field name**.
     vi. Select **Add**.
 7. Select **Save**.
-
-    The *TutorialTransform* tile is now displayed but with an error, because the destination has not been set.
+    > [!NOTE] 
+    > The *TutorialTransform* tile is now displayed but with an error, because the destination has not been set.
 
 ## Create a destination
 

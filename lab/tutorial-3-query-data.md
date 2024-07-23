@@ -37,7 +37,7 @@ The name of the table you created in a previous step is *TutorialTable*. Use thi
     | render timechart
     ```
 
-    This query creates a time chart that shows the number of bikes in the Chelsea neighborhood as a time chart.
+    This query creates a time chart that shows the number of bikes in the Chelsea neighbourhood as a time chart.
 
     :::image type="content" source="media/lab/empty-docks-timechart.png" alt-text="Screenshot of empty docks timechart in Real-Time Intelligence.":::
 
