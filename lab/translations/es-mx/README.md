@@ -77,7 +77,7 @@ Selecciona **Siguiente >** para ir al primer ejercicio.
 ## Discusiones
 Utiliza la página de Discusiones en este repositorio para hacer cualquier pregunta o continuar la conversación de aprendizaje!
 
-## Additional Resources and Continued Learning
+## Recursos Adicionales y Aprendizaje Continuado
 | Recursos         | Enlaces                            | Descripción |
 |-------------------|----------------------------------|-------------------|
 | Centro de Carreras de Microsoft Fabric        | [Centro de Carreras de Microsoft Fabric en el Sitio de la Comunidad de Fabric](https://aka.ms/FabricCareerHub?ocid=fabric24_careerhub_blog_cxa) | El lugar único para comenzar tu viaje de aprendizaje para la certificación DP-600: Implementación de Soluciones de Analítica con Microsoft Fabric |
