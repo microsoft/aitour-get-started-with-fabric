@@ -34,4 +34,4 @@ Los conocimientos del flujo de eventos ahora están disponibles para que crees a
 ## Paso siguiente
 
 > [!div class="nextstepaction"]
-> [Tutorial, parte 7: Limpiar recursos](tutorial-7-limpieza-de-recursos.md)
+> [Tutorial, parte 7: Limpiar recursos](tutorial-7-limpiar-recursos.md)

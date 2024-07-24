@@ -32,4 +32,4 @@ En esta parte del tutorial, configuras el entorno. Específicamente, creas un *e
 ## Paso siguiente
 
 > [!div class="nextstepaction"]
-> [Tutorial, parte 2: obtención datos en el centro en tiempo real](tutorial-2-obtención-de-datos-en-el-centro-en-tiempo-real.md)
+> [Tutorial, parte 2: obtención datos en el centro en tiempo real](tutorial-2-obtener-eventos-en-tiempo-real.md)
