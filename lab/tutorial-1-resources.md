@@ -1,6 +1,6 @@
 # Real-Time Intelligence tutorial part 1: Create resources
 
-In this part of the tutorial, you set up the environment. Specifically, you create a [workspace] and an [eventhouse](eventhouse.md), which automatically creates a child KQL database, and then you enable OneLake availability.
+In this part of the tutorial, you set up the environment. Specifically, you create a *workspace* and an *eventhouse*, which automatically creates a child KQL database, and then you enable OneLake availability.
 
 ## Create a workspace
 1. Sign in to the [Microsoft Fabric portal](https://fabric.microsoft.com).
