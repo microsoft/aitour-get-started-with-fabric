@@ -68,7 +68,7 @@ Selecciona **Siguiente >** para ir al primer ejercicio.
 
 ===
 
-!INSTRUCCIONES [Tutorial, parte 6: Configurar una alerta en tu flujo de eventos](hhttps://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/translations/es-mx/tutorial-6-configurar-alertas.md)
+!INSTRUCCIONES [Tutorial, parte 6: Configurar una alerta en tu flujo de eventos](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/translations/es-mx/tutorial-6-configurar-alertas.md)
 
 ===
 
