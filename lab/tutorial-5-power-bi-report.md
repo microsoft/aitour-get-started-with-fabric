@@ -17,23 +17,23 @@ A Power BI report is a multi-perspective view into a semantic model, with visual
 ### Add visualizations to the report
 
 1. In the report editor, select **Visualizations** > **Map** icon.
-     :::image type="icon" source="media/lab/map-icon.png" border="false":::
+     :::image type="icon" source="media/map-icon.png" border="false":::
 2. Drag the following fields from **Data** > **Kusto Query Result** to the **Visualizations** pane.
     * **Lat** > **Latitude**
     * **Lon** > **Longitude**
     * **No_Bikes** > **Bubble size**
     * **Neighbourhood** > **Add drill-through fields here**
 
-    :::image type="content" source="media/lab/report-generated.png" alt-text="Screenshot of Power BI report generation window in Real-Time Intelligence." lightbox="media/lab/report-generated.png":::
+    :::image type="content" source="media/report-generated.png" alt-text="Screenshot of Power BI report generation window in Real-Time Intelligence." lightbox="media/report-generated.png":::
 
 3. In the report editor, select **Visualizations** > **Stacked column chart** icon.
-    :::image type="icon" source="media/lab/stacked-column-chart-icon.png" border="false":::
+    :::image type="icon" source="media/stacked-column-chart-icon.png" border="false":::
 4. Drag the following fields from **Data** > **Kusto Query Result** to the **Visualizations** pane.
     * **Neighbourhood** > **X-axis**
     * **No_Bikes** > **Y-axis**
     * **No_Empty_Docks** > **Y-axis**
 
-    :::image type="content" source="media/lab/second-visual-report.png" alt-text="Screenshot of adding the second visual, a column chart, to the report." lightbox="media/lab/second-visual-report.png":::
+    :::image type="content" source="media/second-visual-report.png" alt-text="Screenshot of adding the second visual, a column chart, to the report." lightbox="media/second-visual-report.png":::
 
 ### Save the report
 
@@ -46,7 +46,7 @@ A Power BI report is a multi-perspective view into a semantic model, with visual
 
 When you open the Power BI report, you can add or edit visualizations. You can also interact with the visualizations. For example, selecting one of the *Neighbourhood* columns on one visualization highlights the values of that neighbourhood in the other visualizations.
 
-:::image type="content" source="media/lab/cross-highlight.gif" alt-text="GIF showing how cross-highlighting works in Power BI report." border="false"  lightbox="media/lab/cross-highlight.gif":::
+:::image type="content" source="media/cross-highlight.gif" alt-text="GIF showing how cross-highlighting works in Power BI report." border="false"  lightbox="media/cross-highlight.gif":::
 
 Now that you have created a Power BI report, your data is visualized in a way that is easy to understand and share with others. It's time to set an alert on your event stream to receive a notification in Teams when the number of bikes falls below a certain threshold.
 

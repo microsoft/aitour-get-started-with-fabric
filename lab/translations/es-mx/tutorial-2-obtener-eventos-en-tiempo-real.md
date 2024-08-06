@@ -7,7 +7,7 @@ En esta parte del tutorial, examinarás el centro en tiempo real, crearás una s
 1. En la barra de navegación, selecciona **Centro en tiempo real**.
 2. Selecciona **+ Obtener eventos**.
 
-    :::image type="content" source="media/lab/get-events.png" alt-text="Captura de pantalla de la página de centro en tiempo real con el botón Obtener eventos resaltado.":::
+    :::image type="content" source="media/get-events.png" alt-text="Captura de pantalla de la página de centro en tiempo real con el botón Obtener eventos resaltado.":::
 
 3. Se abre el panel **Obtener eventos**. Selecciona **Datos de ejemplo**.
 
@@ -21,7 +21,7 @@ En esta parte del tutorial, examinarás el centro en tiempo real, crearás una s
 1. Edita el **Nombre de la Eventstream** seleccionando el icono de lápiz e ingresando *TutorialEventstream*.
 2. Selecciona **Siguiente**.
 
-:::image type="content" source="media/lab/connect-source.png" alt-text="Captura de pantalla de la ventana Conectar en el centro en tiempo real.":::
+:::image type="content" source="media/connect-source.png" alt-text="Captura de pantalla de la ventana Conectar en el centro en tiempo real.":::
 
 ### Revisar y crear
 
@@ -43,7 +43,7 @@ En esta parte del tutorial, examinarás el centro en tiempo real, crearás una s
     iii. Selecciona **+ Agregar campo**
     iv. En la lista desplegable **Función de fecha y hora integrada**, selecciona **SYSTEM.Timestamp()**.
 
-    :::image type="content" source="media/lab/system-timestamp.png" alt-text="Captura de pantalla que muestra la selección de la marca de tiempo del sistema en el mosaico de administración de campos de la flujo de eventos en Real-Time Intelligence.":::
+    :::image type="content" source="media/system-timestamp.png" alt-text="Captura de pantalla que muestra la selección de la marca de tiempo del sistema en el mosaico de administración de campos de la flujo de eventos en Real-Time Intelligence.":::
 
     v. Escribe *Timestamp* como **Nombre del campo**.
     vi. Seleccione **Agregar**.
@@ -61,7 +61,7 @@ En esta parte del tutorial, examinarás el centro en tiempo real, crearás una s
 3. Selecciona el icono de lápiz en el icono *KQLDatabase1*.
 4. Introduce la siguiente información en el panel **Base de datos KQL**:
 
-    :::image type="content" source="media/lab/kql-database-details.png" alt-text="Captura de pantalla que muestra cómo configurar la base de datos KQL en Real-Time Intelligence.":::
+    :::image type="content" source="media/kql-database-details.png" alt-text="Captura de pantalla que muestra cómo configurar la base de datos KQL en Real-Time Intelligence.":::
 
     | Campo | Valor |
     | --- | --- |

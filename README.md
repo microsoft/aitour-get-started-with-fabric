@@ -28,10 +28,7 @@ In this lab you will learn how to:
 
 
 ## Additional Resources and Continued Learning
-| Resources          | Links                            | Description |
-|-------------------|----------------------------------|-------------------|
-| Microsoft Fabric Career Hub        | [Microsoft Fabric Career Hub on the Fabric Community Site](https://aka.ms/FabricCareerHub?ocid=fabric24_careerhub_blog_cxa) | The one-stop location to begin your learning journey for the DP-600: Implementing Analytics Solutions Using Microsoft Fabric certification |
-| Hands-on Real-Time Intelligence Applied Skills     | [Implement a Real-Time Intelligence with Microsoft Fabric](https://learn.microsoft.com/en-us/credentials/applied-skills/implement-a-real-time-intelligence-solution-with-microsoft-fabric/) | Validate your technical skills and open doors to new possibilities of advancement with Microsoft Applied Skills |
+You can find additional resources, including the slides of the presentation, [here](./SESSION_RESOURCES.md).
 
 ## Content Owners
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->

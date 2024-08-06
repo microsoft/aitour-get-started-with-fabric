@@ -8,7 +8,7 @@ En esta parte del tutorial, aprenderás a consultar los datos de streaming en un
 2. Comprueba que los datos fluyen a la base de datos echando un vistazo al icono **Tamaño** en la página de detalles de la base de datos. Los valores en este mosaico deben ser mayores que cero.
 3. En la cinta de opciones, selecciona **Nuevo elemento relacionado** y elige **Conjunto de consultas KQL**.
 
-    :::image type="content" source="media/lab/new-queryset.png" alt-text="Captura de pantalla de la base de datos Tutorial que muestra cómo agregar un nuevo elemento relacionado que es un conjunto de consultas KQL.":::
+    :::image type="content" source="media/new-queryset.png" alt-text="Captura de pantalla de la base de datos Tutorial que muestra cómo agregar un nuevo elemento relacionado que es un conjunto de consultas KQL.":::
 
 4. Escriba el nombre del conjunto de consultas KQL: *TutorialQueryset* y seleccione **Crear**.
 5. Selecciona la base de datos *Tutorial* como origen de datos para el conjunto de consultas KQL y luego selecciona **Conectar**.
@@ -38,7 +38,7 @@ El nombre de la tabla que creaste en un paso anterior es *TutorialTable*. Utiliz
     ```
     Esta consulta crea un gráfico de tiempo que muestra el número de bicicletas en el barrio de Chelsea.
 
-    :::image type="content" source="media/lab/empty-docks-timechart.png" alt-text="Captura de pantalla de un gráfico de tiempo de muelles vacíos en Real-Time Intelligence.":::
+    :::image type="content" source="media/empty-docks-timechart.png" alt-text="Captura de pantalla de un gráfico de tiempo de muelles vacíos en Real-Time Intelligence.":::
 
 ## Paso siguiente
 

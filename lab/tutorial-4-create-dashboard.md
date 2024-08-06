@@ -13,12 +13,12 @@ In this part of the tutorial, learn how to create a Real-Time dashboard in Real-
     | render columnchart with (ycolumns=No_Bikes, xcolumn= BikepointID)
     ```
 
-    :::image type="content" source="media/lab/bikes-by-bikepoint.png" alt-text="Screenshot of query showing column chart of bikes by bike point ID. ":::
+    :::image type="content" source="media/bikes-by-bikepoint.png" alt-text="Screenshot of query showing column chart of bikes by bike point ID. ":::
 
 2. Select **Pin to dashboard**. 
 3. Enter the following information:
 
-    :::image type="content" source="media/lab/pin-dashboard.png" alt-text="Screenshot of pinning query to dashboard in Real-Time Intelligence.":::
+    :::image type="content" source="media/pin-dashboard.png" alt-text="Screenshot of pinning query to dashboard in Real-Time Intelligence.":::
 
     | Field | Value |
     | --- | --- |
@@ -36,7 +36,7 @@ The new dashboard, *TutorialDashboard*, opens with the *Recent bikes by Bikepoin
 1. On the top menu bar, toggle from **Viewing** mode to **Editing** mode.
 2. Select **New tile**
 
-    :::image type="content" source="media/lab/new-tile.png" alt-text="Screenshot of Real-Time dashboard in editing mode with new tile selected.":::
+    :::image type="content" source="media/new-tile.png" alt-text="Screenshot of Real-Time dashboard in editing mode with new tile selected.":::
 
 3. In the query editor enter the following query:
 
@@ -52,9 +52,9 @@ The new dashboard, *TutorialDashboard*, opens with the *Recent bikes by Bikepoin
 
 ## Explore the data visually by adding an aggregation
 
-1. On the new **Chelsea bikes** tile, select the **Explore** icon :::image type="icon" source="media/lab/explore-icon.png" border="false":::.
+1. On the new **Chelsea bikes** tile, select the **Explore** icon :::image type="icon" source="media/explore-icon.png" border="false":::.
 
-    :::image type="content" source="media/lab/add-aggregation.gif" alt-text="GIF of how to visually add and modify the query." border="false":::
+    :::image type="content" source="media/add-aggregation.gif" alt-text="GIF of how to visually add and modify the query." border="false":::
 
 2. Select **+ Add** > **Aggregation**.
 3. Select **+ Add grouping**.

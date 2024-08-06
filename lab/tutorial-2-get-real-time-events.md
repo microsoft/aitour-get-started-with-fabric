@@ -7,7 +7,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 1. From the navigation bar, select **Real-Time hub**.
 2. Select **+ Get events**.
     
-    :::image type="content" source="media/lab/get-events.png" alt-text="Screenshot of Real-time hub with get events highlighted.":::
+    :::image type="content" source="media/get-events.png" alt-text="Screenshot of Real-time hub with get events highlighted.":::
 
 3. The **Get events** pane opens. Select **Sample data**. 
 
@@ -21,7 +21,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 1. Edit the **Eventstream name** by selecting the pencil icon and entering *TutorialEventstream*.
 2. Select **Next**.
 
-:::image type="content" source="media/lab/connect-source.png" alt-text="Screenshot of connect window in Real-Time hub.":::
+:::image type="content" source="media/connect-source.png" alt-text="Screenshot of connect window in Real-Time hub.":::
 
 ### Review and create
 
@@ -43,7 +43,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
     iii. Select **+ Add field**.  
     iv. From the **Built-in Date Time Function** dropdown, select **SYSTEM.Timestamp()**.
 
-    :::image type="content" source="media/lab/system-timestamp.png" alt-text="Screenshot showing the system timestamp selected in the event stream manage fields tile in Real-Time Intelligence.":::
+    :::image type="content" source="media/system-timestamp.png" alt-text="Screenshot showing the system timestamp selected in the event stream manage fields tile in Real-Time Intelligence.":::
 
     v. Enter *Timestamp* as the **Field name**.
     vi. Select **Add**.
@@ -61,7 +61,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 3. Select the pencil icon on the *KQLDatabase1* tile.
 4. Enter the following information in the **KQL Database** pane:
 
-    :::image type="content" source="media/lab/kql-database-details.png" alt-text="Screenshot showing the KQL database destination pane in Real-Time Intelligence.":::
+    :::image type="content" source="media/kql-database-details.png" alt-text="Screenshot showing the KQL database destination pane in Real-Time Intelligence.":::
 
     | Field | Value |
     | --- | --- |

@@ -7,7 +7,7 @@ Los conocimientos del flujo de eventos ahora están disponibles para que crees a
 1. Desde la barra de navegación izquierda, selecciona **Centro de Tiempo Real**.
 2. Selecciona el flujo de eventos que creaste en el tutorial anterior, llamado *TutorialEventstream*. Se abre la página de detalles del flujo de eventos.
 
-    :::image type="content" source="media/lab/set-alert.png" alt-text="Captura de pantalla de la página de detalles del flujo de eventos con el botón Configurar alerta resaltado." lightbox="media/lab/set-alert.png":::
+    :::image type="content" source="media/set-alert.png" alt-text="Captura de pantalla de la página de detalles del flujo de eventos con el botón Configurar alerta resaltado." lightbox="media/set-alert.png":::
 
 3. Selecciona **Configurar alerta**
 4. Se abre un nuevo panel. Completa los campos de la siguiente manera:
@@ -25,7 +25,7 @@ Los conocimientos del flujo de eventos ahora están disponibles para que crees a
     | Elemento | Crear un nuevo elemento |
     | Nombre del nuevo elemento | Tutorial-Reflex |
 
-    :::image type="content" source="media/lab/alert-logic.png" alt-text="Captura de pantalla de cómo configurar una alerta en el flujo de eventos en Real-Time Intelligence.":::
+    :::image type="content" source="media/alert-logic.png" alt-text="Captura de pantalla de cómo configurar una alerta en el flujo de eventos en Real-Time Intelligence.":::
 
 5. Selecciona **Crear**.
 

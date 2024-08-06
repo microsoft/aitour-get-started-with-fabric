@@ -8,7 +8,7 @@ En esta parte del tutorial, configuras el entorno. Específicamente, creas un *e
 3. Selecciona **Espacios de trabajo** en el panel de navegación izquierdo. Luego selecciona **+ Nuevo espacio de trabajo**.
 4. Ingresa un nombre para el espacio de trabajo, como *TutorialWorkspace*. Selecciona **Aplicar** cuando termines.
 
-    :::image type="content" source="media/lab/create-workspace.png" alt-text="Captura de pantalla que muestra cómo crear un espacio de trabajo en Real-Time Intelligence.":::
+    :::image type="content" source="media/create-workspace.png" alt-text="Captura de pantalla que muestra cómo crear un espacio de trabajo en Real-Time Intelligence.":::
 
 ## Creación de instancia de Eventhouse
 
@@ -22,12 +22,12 @@ En esta parte del tutorial, configuras el entorno. Específicamente, creas un *e
 
 1. En la página **Información general del sistema**, selecciona la base de datos KQL que creaste en el paso anterior.
     
-    :::image type="content" source="media/lab/select-tutorial-database.png" alt-text="Screnshot of the System overview for new eventhouse with Tutorial database selected and highlighted with a red box.":::
+    :::image type="content" source="media/select-tutorial-database.png" alt-text="Screnshot of the System overview for new eventhouse with Tutorial database selected and highlighted with a red box.":::
 
 2. Junto a la sección **Detalles de la base de datos**, selecciona el **icono de lápiz** al lado de disponibilidad de **OneLake**.
 3. Cambie el botón a **Activo** y seleccione **Listo**.
 
-    :::image type="content" source="media/lab/one-lake-availability.png" alt-text="Captura de pantalla que muestra cómo activar la disponibilidad de OneLake.":::
+    :::image type="content" source="media/one-lake-availability.png" alt-text="Captura de pantalla que muestra cómo activar la disponibilidad de OneLake.":::
 
 ## Paso siguiente
 
