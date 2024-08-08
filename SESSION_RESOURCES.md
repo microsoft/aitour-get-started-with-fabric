@@ -1,4 +1,4 @@
-# Get Started with Real-Time Intelligence in Microsoft Fabric - Session resources
+# Microsoft Fabric: Start with Real-Time Intelligence - Session resources
 
 > Learn more about Microsoft AI Tour on the official website.
 
