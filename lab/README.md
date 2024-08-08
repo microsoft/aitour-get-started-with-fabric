@@ -1,6 +1,6 @@
 # Session folder
 
-This folder contains the public facing files for the lab `Get Started with Real-Time Intelligence in Microsoft Fabric`.
+This folder contains the public facing files for the lab `Microsoft Fabric: Start with Real-Time Intelligence`.
 
 # Before you start
  

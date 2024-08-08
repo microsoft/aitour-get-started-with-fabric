@@ -1,4 +1,4 @@
-# Get started with Real-Time Intelligence in Microsoft Fabric
+# Microsoft Fabric: Start with Real-Time Intelligence
 
 ## Session Desciption
 
@@ -26,6 +26,10 @@ In this lab you will learn how to:
 - Kusto Query Language (KQL)
 - Power BI
 
+## Business Value
+
+- Be proactive instead of reactive with your data, thanks to Real-Time Intelligence​.
+- Show how businesses can get insights in Real-Time from their data​.
 
 ## Additional Resources and Continued Learning
 You can find additional resources, including the slides of the presentation, [here](./SESSION_RESOURCES.md).
