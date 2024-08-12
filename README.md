@@ -1,6 +1,6 @@
 # Microsoft Fabric: Start with Real-Time Intelligence
 
-## Session Desciption
+## Session Description
 
 Analysis of real-time data streams is a critical capability for any modern data analytics solution. You can use the Real-Time Intelligence capabilities of Microsoft Fabric to ingest, query, and process streams of data.
 
