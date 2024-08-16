@@ -13,6 +13,8 @@
 | Fabric Roadmap    | [Fabric Roadmap](https://aka.ms/FabricRoadmap) | Be in the know with the latest developments and upcoming features. |
 | Microsoft Copilot for Data Analysts or Data Engineers  | [Learn](https://aka.ms/aitour-data-clh) | Learn more Coplot for Data professionals with this collection of resources on Microsoft Learn |
 | Hands-on Real-Time Intelligence Applied Skills     | [Implement a Real-Time Intelligence with Microsoft Fabric](https://learn.microsoft.com/en-us/credentials/applied-skills/implement-a-real-time-intelligence-solution-with-microsoft-fabric/) | Validate your technical skills and open doors to new possibilities of advancement with Microsoft Applied Skills |
+| Eventhouse as a vector database     | [Official Documentation](https://learn.microsoft.com/en-us/fabric/real-time-intelligence/vector-database) | Read the official documentation on Eventhouse as a vector database on Microsoft Docs |
+| Use an Eventhouse as a vector database     | [Hands-on Tutorial](https://learn.microsoft.com/en-us/fabric/real-time-intelligence/vector-database-eventhouse) | Learn how to use an Eventhouse as a vector database using an example scenario |
 
 ## Links shared during the presentation
 
