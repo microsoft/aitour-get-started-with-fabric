@@ -1,69 +1,70 @@
-## TODO:
-Update this page as you see fit to properly train a future presenter of your content. A past train the trainer repo is included below for your assitance, but feel free to make any changes.
-
-Note: Please make sure to update any links within the markdown so they point to the correct file.
-
 ## How To Use
 
 Welcome,
 
-We're glad you are here and look forward to your delivery of this amazing content. As an experienced presenter, we know you know HOW to present so this guide will focus on WHAT you need to present. It will provide you a full run-through of the presentation created by the presentation design team. 
+We're glad you are here and look forward to your delivery of this amazing content! As an experienced presenter, we know you know HOW to present so this guide will focus on WHAT you need to present. It will provide you a full run-through of the presentation created by the presentation design team. 
 
-Along with the video of the presentation, this document will link to all the assets you need to successfully present including PowerPoint slides and demo instructions &
-code.
+Along with the video of the presentation, this document will link to all the assets you need to successfully present including PowerPoint slides and lab instructions. For field stops, please see the [Field Stop Delivery Guide](#field-stops).
 
-1.  Read document in its entirety.
-2.  Watch the video presentation
-3.  Ask questions of the Lead Presenter
+1.  Read document in its entirety
+2.  Familiarize with the Train the Trainer PowerPoint
+3.  Watch the Train the Trainer PPT Recording
+4.  Familiarize with the Workshop Power Point
+5.  Watch the Workshop PPT Recording 
+6.  Ask questions to the lead presenters
 
 ## File Summary
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| PowerPoint        | - [Presentation](presentations.md) | Slides |
-| PPT Recording     | - [Presentation](https://globaleventcdn.blob.core.windows.net/assets/data/data10/DATA10.mp4) | Video Recording of the PowerPoint slides with no audio |
-| Videos            | - [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84354) | Example Presetations of this Session |
-| Demos             | - [Demo 1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | Additional Demo Content | 
-| Demo Recordings           | - [Data10 - Prequisites](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10_Prerequisites-NoAudio.mp4) | Recording of the Demo Live 1 | 
-| Demo Recordings           | - [Data10 - Demo](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4 ) | Recording of the Demo Live 2 | 
+| Train the Trainer PowerPoint | - [Presentation](https://aka.ms/AArxprb) | The Train the Trainer slides for this workshop|
+| Train the Trainer PPT Recording | - [Video](https://aka.ms/AArxprc) | Recorded delivery of the Train the Trainer PowerPoint slides |
+| Session PowerPoint        | - [Presentation](https://aka.ms/AArxprg) | The presentation slides for this workshop |
+| Session PPT Recording     | - [Video](https://aka.ms/AArxprj) |  Recorded delivery of the PowerPoint slides |
 
 ## Get Started
 
 This training repository is divided in to the following sections:
 
-| [Slides](#slides) | [Demos](demos/README.md) | [Deployment](deployment/README.md) | 
+| [Slides](#slides) | [Timing](#timing) | [Lab Completion](#lab) | 
 |-------------------|---------------------------|--------------------------------------
-| 28 slides - 30 minutes| 1 demos - 15 minutes | Demo setup
+| ~12 slides - 13 minutes delivery time | Timing breakdown for all presentation topics | Lab notes
 
 ## Slides
 
-The [slides](presentations.md) have presenter notes in each part of the session
+The presentation slides for this session have presenter notes in each part of the session.  We recommend to refer to these during your preparation and you can also refer to the notes using a second monitor during your live delivery of the presentation at AI Tour.
 
 ### Timing
 
+Note: Timings are approximate but overall, should allow a buffer for extending areas (ex: Closing / Calls to Action) at speaker's discretion
+
 | Time        | Description 
 --------------|-------------
-0:00 - 5:00   | Intro to the session 
-5:00 - 15:00  | Why Modern Data Warehousing
-15:00 - 20:00 | Building the Modern data warehouse
-20:00 - 35:00 | Designing a modern data warehouse solution
-35:00 - 40:00 | The evolution of cloud scale analytics
-40:00 - 45:00 | Session review
+0:00 - 00:40   | Introduction 
+00:40 - 1:10  | Microsoft Fabric and Real-Time Intelligence
+1:10 - 2:40 | Before you start & Lab Environment 
+2:40 - 3:15 | Lab environment walkthrough 
+3:15 - 7:50 | Activate a Teams & Fabric trial 
+7:50 - 22:50 | Audience completes lab on their own
+22:50 - 23:30 | Ingest Real-Time Data from Operational Databases (during lab completion) 
+23:30 - 26:00 | Eventhouse as a Vector store (during lab completion) 
+26:00 - 27:10 | Possibilities with Real-Time Intelligence (during lab completion) 
+27:10 - 40:00 | Lab Completion + Calls to Action 
+40:00 - 42:00 | Closing / Calls to Action 
 
-## Deployment / Preparation
+## Lab
 
->**What's Here?** Deploying the demo environment on Azure - including the prerequisites.
+> During the presentation, the audience will be completing a lab. Ensure to leave 45 minutes for the audience to complete the lab after activating their Fabric and Teams trials. Give 15 minutes for the audience to start the lab and then continue with the presentation as they complete it.
 
-[Instructions and prerequisites are outlined here](deployment/README.md). 
+## Field Stops
 
+For field stops, please make sure to that the audience has the following requirements adhrered to when completing the lab:
 
-## Demos
+1. An account with a Microsoft Fabric trial enabled.
+2. An account with a Microsoft Teams trial enabled.
+3. If the audience does not have an existing Microsoft 365 account, they can sign up for a free trial [here](https://learn.microsoft.com/power-bi/enterprise/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial)
+4. Then they can sign up for a free trial for Microsoft Fabric [here](https://learn.microsoft.com/fabric/get-started/fabric-trial)
+5. People with their own Microsoft 365 trial account need to enable the Map Visual and Data Actiavator in Power BI. This can be done by turning the Map and Data Activator toggles on in the Power BI Admin Portal.
+6. Once these steps are completed, the audience can start the lab by following the instructions under the lab folder in this repo.
 
-> **What's Here?** Pre-delivery preparation, stage ready videos, required files (such as JSON templates), and walk-through videos
-
-Detailed explanations of each demonstration associated with this presentation can be found in this section. There are 3 "live from stage" technical demonstrations that utilize a number of tools both in and out of Azure. [You can get a high level overview of the tools and how we will be using them here](demos/README.md).
-
-| Demo 	                                                                                               | Minutes | Video |
--------------------------------------------------------------------------------------------------------|---------|----------------- | 
-|  [1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | 15       | [Link](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4) |
-
+> People using their work accounts will need to ask their IT department to enable the Map Visual and Data Activator in Power BI. This can be done by turning the Map and Data Activator toggles on in the Power BI Admin Portal.
