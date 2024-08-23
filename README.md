@@ -34,7 +34,7 @@ In this lab you will learn how to:
 ## Additional Resources and Continued Learning
 You can find additional resources, including the slides of the presentation, [here](./SESSION_RESOURCES.md).
 
-Responsible AI
+## Responsible AI
 Microsoft is committed to helping our customers use our AI products responsibly, sharing our learnings, and building trust-based partnerships through tools like Transparency Notes and Impact Assessments. Many of these resources can be found at https://aka.ms/RAI. Microsoft’s approach to responsible AI is grounded in our AI principles of fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability.
 
 Large-scale natural language, image, and speech models - like the ones used in this sample - can potentially behave in ways that are unfair, unreliable, or offensive, in turn causing harms. Please consult the Azure OpenAI service Transparency note to be informed about risks and limitations.
