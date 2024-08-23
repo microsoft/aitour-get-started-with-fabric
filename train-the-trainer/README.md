@@ -20,7 +20,7 @@ Along with the video of the presentation, this document will link to all the ass
 | Train the Trainer PowerPoint | - [Presentation](https://aka.ms/AArxprb) | The Train the Trainer slides for this workshop|
 | Train the Trainer PPT Recording | - [Video](https://aka.ms/AArxprc) | Recorded delivery of the Train the Trainer PowerPoint slides |
 | Session PowerPoint        | - [Presentation](https://aka.ms/AArxprg) | The presentation slides for this workshop |
-| Session PPT Recording     | - [Video](https://aka.ms/AArxprc) |  Recorded delivery of the PowerPoint slides |
+| Session PPT Recording     | - [Video](https://aka.ms/AArxprj) |  Recorded delivery of the PowerPoint slides |
 
 ## Get Started
 
