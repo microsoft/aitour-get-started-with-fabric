@@ -33,6 +33,7 @@ In this lab you will learn how to:
 
 ## Additional Resources and Continued Learning
 You can find additional resources, including the slides of the presentation, [here](./SESSION_RESOURCES.md).
+If you will present this workshop, you can find the [trainer resources here](./train-the-trainer/README.md).
 
 ## Responsible AI
 Microsoft is committed to helping our customers use our AI products responsibly, sharing our learnings, and building trust-based partnerships through tools like Transparency Notes and Impact Assessments. Many of these resources can be found at https://aka.ms/RAI. Microsoft’s approach to responsible AI is grounded in our AI principles of fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability.
