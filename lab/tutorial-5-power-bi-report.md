@@ -17,14 +17,14 @@ A Power BI report is a multi-perspective view into a semantic model, with visual
 ### Add visualizations to the report
 
 1. In the report editor, select **Visualizations** > **Map** icon.
-     :::image type="icon" source="media/map-icon.png" border="false":::
+     ![Screenshot of the map icon](media/map-icon.png)
 2. Drag the following fields from **Data** > **Kusto Query Result** to the **Visualizations** pane.
     * **Lat** > **Latitude**
     * **Lon** > **Longitude**
     * **No_Bikes** > **Bubble size**
     * **Neighbourhood** > **Add drill-through fields here**
 
-    ![Screenshot of Power BI report generation window in Real-Time Intelligence.](/media/report-generated.png)
+    ![Screenshot of Power BI report generation window in Real-Time Intelligence.](media/report-generated.png)
 
 3. In the report editor, select **Visualizations** > **Stacked column chart** icon.
     ![Icon for the stacked column chart](/media/stacked-column-chart-icon.png)
@@ -33,7 +33,7 @@ A Power BI report is a multi-perspective view into a semantic model, with visual
     * **No_Bikes** > **Y-axis**
     * **No_Empty_Docks** > **Y-axis**
 
-    ![Screenshot of adding the second visual, a column chart, to the report.](/media/second-visual-report.png)
+    ![Screenshot of adding the second visual, a column chart, to the report.](media/second-visual-report.png)
 
 ### Save the report
 
@@ -46,7 +46,7 @@ A Power BI report is a multi-perspective view into a semantic model, with visual
 
 When you open the Power BI report, you can add or edit visualizations. You can also interact with the visualizations. For example, selecting one of the *Neighbourhood* columns on one visualization highlights the values of that neighbourhood in the other visualizations.
 
-![GIF showing how cross-highlighting works in Power BI report.](/media/cross-highlight.gif)
+![GIF showing how cross-highlighting works in Power BI report.](media/cross-highlight.gif)
 
 Now that you have created a Power BI report, your data is visualized in a way that is easy to understand and share with others. It's time to set an alert on your event stream to receive a notification in Teams when the number of bikes falls below a certain threshold.
 
