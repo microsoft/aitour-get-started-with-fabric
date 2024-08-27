@@ -7,7 +7,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 1. From the navigation bar, select **Real-Time hub**.
 2. Select **+ Get events**.
     
-    ![Screenshot of Real-time hub with get events highlighted.](/media/get-events.png)
+    ![Screenshot of Real-time hub with get events highlighted.](media/get-events.png)
 
 3. The **Get events** pane opens. Select **Sample data**. 
 
@@ -21,7 +21,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 1. Edit the **Eventstream name** by selecting the pencil icon and entering *TutorialEventstream*.
 2. Select **Next**.
 
-![Screenshot of connect window in Real-Time hub.](/media/connect-source.png)
+![Screenshot of connect window in Real-Time hub.](media/connect-source.png)
 
 ### Review and create
 
@@ -43,7 +43,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
     iii. Select **+ Add field**.  
     iv. From the **Built-in Date Time Function** dropdown, select **SYSTEM.Timestamp()**.
 
-    ![Screenshot showing the system timestamp selected in the event stream manage fields tile in Real-Time Intelligence.](/media/system-timestamp.png)
+    ![Screenshot showing the system timestamp selected in the event stream manage fields tile in Real-Time Intelligence.](media/system-timestamp.png)
 
     v. Enter *Timestamp* as the **Field name**.
     vi. Select **Add**.
@@ -61,7 +61,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 3. Select the pencil icon on the *KQLDatabase1* tile.
 4. Enter the following information in the **KQL Database** pane:
 
-    :::image type="content" source="media/kql-database-details.png" alt-text="Screenshot showing the KQL database destination pane in Real-Time Intelligence.":::
+    ![Screenshot showing the KQL database destination pane in Real-Time Intelligence.](media/kql-database-details.png)
 
     | Field | Value |
     | --- | --- |
