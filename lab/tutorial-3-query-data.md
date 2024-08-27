@@ -8,7 +8,7 @@ In this part of the tutorial, you learn how to query your streaming data in a [K
 2. Verify that the data is flowing into the database by viewing the **Size** tile in the database details page. The values in this tile should be greater than zero. If the values in the **Size** tile are zero, select **Refresh** from the menu ribbon.
 3. From the menu ribbon, select **New related item** and choose **KQL Queryset**.
 
-    ![Screenshot of Tutorial database showing adding a new related item that is a KQL queryset.](media/new-queryset.png)
+    ![Screenshot of Tutorial database showing adding a new related item that is a KQL queryset.](/media/new-queryset.png)
 
 4. Enter the name for the KQL Queryset: *TutorialQueryset* and select **Create**.
 5. Select the *Tutorial* database as the data source for the KQL queryset then select  **Connect**
@@ -39,7 +39,7 @@ The name of the table you created in a previous step is *TutorialTable*. Use thi
 
     This query creates a time chart that shows the number of bikes in the Chelsea neighbourhood as a time chart.
 
-    ![Screenshot of empty docks timechart in Real-Time Intelligence.](media/empty-docks-timechart.png)
+    ![Screenshot of empty docks timechart in Real-Time Intelligence.](/media/empty-docks-timechart.png)
 
 ## Next step
 

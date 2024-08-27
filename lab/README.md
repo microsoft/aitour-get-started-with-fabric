@@ -3,8 +3,9 @@
 This folder contains the public facing files for the lab `Microsoft Fabric: Start with Real-Time Intelligence`.
 
 # Before you start
- 
-> **Tip**: As you follow the instructions in this pane, whenever you see a +++icon+++, you can use it to copy text from the instruction pane into the virtual machine interface. This is particularly useful to copy code; but bear in mind you may need to modify the pasted code to fix indent levels or formatting before running it!
+
+> [!TIP]
+> As you follow the instructions in this pane, whenever you see a +++icon+++, you can use it to copy text from the instruction pane into the virtual machine interface. This is particularly useful to copy code; but bear in mind you may need to modify the pasted code to fix indent levels or formatting before running it!
  
 ## Sign into Windows
  
