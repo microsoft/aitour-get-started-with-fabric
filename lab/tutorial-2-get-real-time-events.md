@@ -48,7 +48,8 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
     v. Enter *Timestamp* as the **Field name**.
     vi. Select **Add**.
 7. Select **Save**.
-    > [!NOTE] 
+    > [!NOTE]  
+    > Highlights information that users should take into account, even when skimming. 
     > The *TutorialTransform* tile is now displayed but with an error, because the destination has not been set.
 
 ## Create a destination
