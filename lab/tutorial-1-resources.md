@@ -6,7 +6,7 @@ In this part of the tutorial, you set up the environment. Specifically, you crea
 1. Sign in to the [Microsoft Fabric portal](https://fabric.microsoft.com).
 2. Choose **Real-Time Intelligence** from the list of options on the home page or the menu bar on the bottom left of the portal.
 3. Select **Workspaces** from the left navigation pane. Then select **+ New workspace**.
-4. Enter a name for the workspace, such as *TutorialWorkspace*. Select **Apply** when done.
+4. Enter a name for the workspace, such as *TutorialWorkspace_@lab.LabInstance.Id*. Select **Apply** when done.
 
     ![Screenshot showing how to create a new workspace in Real-Time Intelligence.](media/create-workspace-side-pane.png)
 
