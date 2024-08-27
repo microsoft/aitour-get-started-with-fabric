@@ -78,4 +78,4 @@ The event stream is now set up to transform events and send them to a KQL databa
 
 ## Next step
 
-> [Select Next > to query streaming data in a KQL queryset]()
+> Select **Next >** to query streaming data in a KQL queryset

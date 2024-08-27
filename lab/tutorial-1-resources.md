@@ -32,4 +32,4 @@ In this part of the tutorial, you set up the environment. Specifically, you crea
 
 ## Next step
 
-> [Select Next > to get data in the Real-Time Hub]()
+> Select **Next >** to get data in the Real-Time Hub

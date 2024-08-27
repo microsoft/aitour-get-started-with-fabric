@@ -34,4 +34,4 @@ The event stream insights are now available for you to create alerts. In this pa
 
 ## Next step
 
-> [Select Next > to clean up resources]()
+> Select **Next >** to clean up resources

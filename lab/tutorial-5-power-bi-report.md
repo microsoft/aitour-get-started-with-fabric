@@ -52,4 +52,4 @@ Now that you have created a Power BI report, your data is visualized in a way th
 
 ## Next step
 
-> [Select Next > to set an alert on your event stream]()
+> Select **Next >** to set an alert on your event stream

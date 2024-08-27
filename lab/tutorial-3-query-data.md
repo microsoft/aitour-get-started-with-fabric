@@ -43,4 +43,4 @@ The name of the table you created in a previous step is *TutorialTable*. Use thi
 
 ## Next step
 
-> [Select Next > to create a Real-Time dashboard]()
+> Select **Next >** to create a Real-Time dashboard

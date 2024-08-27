@@ -67,4 +67,4 @@ The new dashboard, *TutorialDashboard*, opens with the *Recent bikes by Bikepoin
 
 ## Next step
 
-> [Select Next > to create a Power BI report from your KQL queryset]()
+> Select **Next >** to create a Power BI report from your KQL queryset
