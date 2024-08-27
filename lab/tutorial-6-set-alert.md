@@ -8,7 +8,7 @@ The event stream insights are now available for you to create alerts. In this pa
 2. Select the event stream you created in the previous tutorial named *TutorialEventstream*.
     The event stream details page opens.
     
-    :::image type="content" source="media/set-alert.png" alt-text="Screenshot of event streams details page and set alert selected." lightbox="media/tutorial/set-alert.png":::
+    ![Screenshot of event streams details page and set alert selected.](/media/set-alert.png)
 
 3. Select **Set alert**
 4. A new pane opens. Fill in the fields as follows:
@@ -26,7 +26,7 @@ The event stream insights are now available for you to create alerts. In this pa
     | Item | Create a new item |
     | New item name | Tutorial-Reflex |
 
-    :::image type="content" source="media/alert-logic.png" alt-text="Screenshot of Set alert pane in Real-Time Intelligence.":::
+    ![Screenshot of Set alert pane in Real-Time Intelligence.](/media/alert-logic.png)
 
 5. Select **Create**.
 
@@ -34,5 +34,4 @@ The event stream insights are now available for you to create alerts. In this pa
 
 ## Next step
 
-> [!div class="nextstepaction"]
-> [Tutorial part 7: Clean up resources](tutorial-7-clean-up-resources.md)
+> Select **Next >** to clean up resources

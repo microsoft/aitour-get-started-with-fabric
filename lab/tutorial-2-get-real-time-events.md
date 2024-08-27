@@ -7,7 +7,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 1. From the navigation bar, select **Real-Time hub**.
 2. Select **+ Get events**.
     
-    :::image type="content" source="media/get-events.png" alt-text="Screenshot of Real-time hub with get events highlighted.":::
+    ![Screenshot of Real-time hub with get events highlighted.](/media/get-events.png)
 
 3. The **Get events** pane opens. Select **Sample data**. 
 
@@ -21,7 +21,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 1. Edit the **Eventstream name** by selecting the pencil icon and entering *TutorialEventstream*.
 2. Select **Next**.
 
-:::image type="content" source="media/connect-source.png" alt-text="Screenshot of connect window in Real-Time hub.":::
+![Screenshot of connect window in Real-Time hub.](/media/connect-source.png)
 
 ### Review and create
 
@@ -43,14 +43,13 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
     iii. Select **+ Add field**.  
     iv. From the **Built-in Date Time Function** dropdown, select **SYSTEM.Timestamp()**.
 
-    :::image type="content" source="media/system-timestamp.png" alt-text="Screenshot showing the system timestamp selected in the event stream manage fields tile in Real-Time Intelligence.":::
+    ![Screenshot showing the system timestamp selected in the event stream manage fields tile in Real-Time Intelligence.](/media/system-timestamp.png)
 
     v. Enter *Timestamp* as the **Field name**.
     vi. Select **Add**.
 7. Select **Save**.
-    > [!NOTE]  
-    > Highlights information that users should take into account, even when skimming. 
-    > The *TutorialTransform* tile is now displayed but with an error, because the destination has not been set.
+> [!NOTE]
+> The *TutorialTransform* tile is now displayed but with an error, because the destination has not been set.
 
 ## Create a destination
 
@@ -79,5 +78,4 @@ The event stream is now set up to transform events and send them to a KQL databa
 
 ## Next step
 
-> [!div class="nextstepaction"]
-> [Tutorial part 3: Query streaming data in a KQL queryset](tutorial-3-query-data.md)
+> Select **Next >** to query streaming data in a KQL queryset
