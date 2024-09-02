@@ -27,7 +27,7 @@ A Power BI report is a multi-perspective view into a semantic model, with visual
     ![Screenshot of Power BI report generation window in Real-Time Intelligence.](media/report-generated.png)
 
 3. In the report editor, select **Visualizations** > **Stacked column chart** icon.
-    ![Icon for the stacked column chart](/media/stacked-column-chart-icon.png)
+    ![Icon for the stacked column chart](media/stacked-column-chart-icon.png)
 4. Drag the following fields from **Data** > **Kusto Query Result** to the **Visualizations** pane.
     * **Neighbourhood** > **X-axis**
     * **No_Bikes** > **Y-axis**
