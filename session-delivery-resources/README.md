@@ -1,3 +1,7 @@
+# Session delivery resources
+
+The following resources are intended for a presenter to learn and deliver the session.
+
 ## How To Use
 
 Welcome,
@@ -7,8 +11,8 @@ We're glad you are here and look forward to your delivery of this amazing conten
 Along with the video of the presentation, this document will link to all the assets you need to successfully present including PowerPoint slides and lab instructions. For field stops, please see the [Field Stop Delivery Guide](#field-stops).
 
 1.  Read document in its entirety
-2.  Familiarize with the Train the Trainer PowerPoint
-3.  Watch the Train the Trainer PPT Recording
+2.  Familiarize with the Session Delivery Resources PowerPoint
+3.  Watch the Session Delivery Resources PPT Recording
 4.  Familiarize with the Workshop Power Point
 5.  Watch the Workshop PPT Recording 
 6.  Ask questions to the lead presenters
@@ -17,8 +21,8 @@ Along with the video of the presentation, this document will link to all the ass
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| Train the Trainer PowerPoint | - [Presentation](https://aka.ms/AArxprb) | The Train the Trainer slides for this workshop|
-| Train the Trainer PPT Recording | - [Video](https://aka.ms/AArxprc) | Recorded delivery of the Train the Trainer PowerPoint slides |
+| Session Delivery Resources PowerPoint | - [Presentation](https://aka.ms/AArxprb) | The Session Delivery Resources slides for this workshop|
+| Session Delivery Resources PPT Recording | - [Video](https://aka.ms/AArxprc) | Recorded delivery of the Session Delivery Resources PowerPoint slides |
 | Session PowerPoint        | - [Presentation](https://aka.ms/AArxprg) | The presentation slides for this workshop |
 | Session PPT Recording     | - [Video](https://aka.ms/AArxprj) |  Recorded delivery of the PowerPoint slides |
 
