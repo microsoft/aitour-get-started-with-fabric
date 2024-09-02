@@ -1,5 +1,11 @@
 # Microsoft Fabric: Start with Real-Time Intelligence
 
+This repo is a companion to this session at Microsoft AI Tour, a worldwide tour of events.
+
+> Learn more about Microsoft AI Tour on the official website.
+
+![Session cover image with a bright "AI" text in 3D over a blue and purple abstract background.](lab/media/cover.png)
+
 ## Session Description
 
 Analysis of real-time data streams is a critical capability for any modern data analytics solution. You can use the Real-Time Intelligence capabilities of Microsoft Fabric to ingest, query, and process streams of data.
@@ -34,7 +40,7 @@ In this lab you will learn how to:
 ## Additional Resources and Continued Learning
 You can find additional resources, including the slides of the presentation, [here](./SESSION_RESOURCES.md).
 
-If you will present this workshop, you can find the [trainer resources here](./train-the-trainer/README.md).
+If you will present this workshop, you can find the [session delivery resources here](./session-delivery-resources/README.md).
 
 ## Responsible AI
 Microsoft is committed to helping our customers use our AI products responsibly, sharing our learnings, and building trust-based partnerships through tools like Transparency Notes and Impact Assessments. Many of these resources can be found at https://aka.ms/RAI. Microsoft’s approach to responsible AI is grounded in our AI principles of fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability.
