@@ -46,6 +46,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
     ![Screenshot showing the system timestamp selected in the event stream manage fields tile in Real-Time Intelligence.](media/system-timestamp.png)
 
     v. Enter *Timestamp* as the **Field name**.
+
     vi. Select **Add**.
     
 8. Select **Save**.
