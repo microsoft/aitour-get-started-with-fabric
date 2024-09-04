@@ -7,10 +7,7 @@ In this part of the tutorial, learn how to create a Real-Time dashboard in Real-
 1. In your KQL queryset, copy/paste, and run the following query. This query returns a column chart showing the most recent number of bikes by *BikepoointID*.
 
     ```kusto
-    TutorialTable
-    | summarize arg_max(Timestamp, No_Bikes) by BikepointID
-    | sort by BikepointID
-    | render columnchart with (ycolumns=No_Bikes, xcolumn= BikepointID)
+    TutorialTable | summarize arg_max(Timestamp, No_Bikes) by BikepointID | sort by BikepointID | render columnchart with (ycolumns=No_Bikes, xcolumn= BikepointID)
     ```
 
     ![Screenshot of query showing column chart of bikes by bike point ID.](media/bikes-by-bikepoint.png)
@@ -41,8 +38,7 @@ The new dashboard, *TutorialDashboard*, opens with the *Recent bikes by Bikepoin
 3. In the query editor enter the following query:
 
     ```kusto
-    TutorialTable
-    | where Neighbourhood == "Chelsea"
+    TutorialTable | where Neighbourhood == "Chelsea"
     ```
 
 4. From the menu ribbon Select **Apply changes**.

@@ -8,8 +8,7 @@ A Power BI report is a multi-perspective view into a semantic model, with visual
 2. Copy and paste the following query into the query editor. The output of this query is used as the semantic model for building the Power BI report. 
 
     ```kusto
-    TutorialTable
-    | summarize arg_max(Timestamp, No_Bikes,  No_Empty_Docks, Neighbourhood, Lat=todouble(Latitude), Lon=todouble(Longitude)) by BikepointID
+    TutorialTable | summarize arg_max(Timestamp, No_Bikes,  No_Empty_Docks, Neighbourhood, Lat=todouble(Latitude), Lon=todouble(Longitude)) by BikepointID
     ```
 
 3. Select **Power BI**. The Power BI report editor opens with the query result available as a data source named **Kusto Query Result**.
@@ -27,7 +26,7 @@ A Power BI report is a multi-perspective view into a semantic model, with visual
     ![Screenshot of Power BI report generation window in Real-Time Intelligence.](media/report-generated.png)
 
 3. In the report editor, select **Visualizations** > **Stacked column chart** icon.
-    ![Icon for the stacked column chart](/media/stacked-column-chart-icon.png)
+    ![Icon for the stacked column chart](media/stacked-column-chart-icon.png)
 4. Drag the following fields from **Data** > **Kusto Query Result** to the **Visualizations** pane.
     * **Neighbourhood** > **X-axis**
     * **No_Bikes** > **Y-axis**
