@@ -22,8 +22,7 @@ The name of the table you created in a previous step is *TutorialTable*. Use thi
 1. In the query editor, delete the pre-populated queries and enter the following query. Then press **Shift + Enter** to run the query.
 
     ```kusto
-    TutorialTable
-    | take 10
+    TutorialTable | take 10
     ```
 
     This query returns 10 arbitrary records from the table. What information about the data can you see at a glance? Notice that one of the columns is named *No_Bikes*. This column contains the number of empty docks at a bike station. This is a field you may be concerned with if you're tracking the availability of bikes at a station.
@@ -31,10 +30,7 @@ The name of the table you created in a previous step is *TutorialTable*. Use thi
 2. To see the data in a more visual way, use the **render** operator. Run the following query:
 
     ```kusto
-    TutorialTable
-    | where Neighbourhood == "Chelsea"
-    | project Timestamp, No_Bikes
-    | render timechart
+    TutorialTable | where Neighbourhood == "Chelsea" | project Timestamp, No_Bikes | render timechart
     ```
 
     This query creates a time chart that shows the number of bikes in the Chelsea neighbourhood as a time chart.
