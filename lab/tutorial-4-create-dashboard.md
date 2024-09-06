@@ -43,7 +43,9 @@ The new dashboard, *TutorialDashboard*, opens with the *Recent bikes by Bikepoin
 
 4. From the menu ribbon Select **Apply changes**.
 5. This creates a new tile, rename the tile by selecting the **ellipsis icon** on the top right corner of the tile, the select **Rename tile**.
-6. Rename the tile to +++*Chelsea bikes*+++. 
+6. Rename the tile to +++*Chelsea bikes*+++.
+    
+    ![Screenshot of Chelsea bikes tile in Real-Time Intelligence.](media/complete-dashboard.png)
 
 
 ## Explore the data visually by adding an aggregation
