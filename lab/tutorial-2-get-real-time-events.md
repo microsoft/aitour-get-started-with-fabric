@@ -27,7 +27,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
 1. Review the event stream details and select **Create source**.
 
-   A new event stream named +++*TutorialEventstream*+++ is created.
+   A new event stream named *TutorialEventstream* is created.
 
 ## Transform events
 
@@ -73,7 +73,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
     | **Destination name** | +++*TutorialDestination*+++ |
     | **Workspace** | Select the workspace in which you've created your resources. |
     | **KQL Database** | *Tutorial* |
-    | **Destination table** | *Create new* - enter *TutorialTable* as table name |
+    | **Destination table** | *Create new* - enter +++*TutorialTable*+++ as table name |
     | **Input data format** | *JSON* |  
 
 5. Select **Save**.
