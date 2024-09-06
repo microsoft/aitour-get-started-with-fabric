@@ -13,12 +13,12 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
 ### Sample data
 
-1. In **Source name**, enter *TutorialSource*.
+1. In **Source name**, enter +++*TutorialSource*+++.
 2. In **Sample data** select *Bicycles (Reflex compatible)*.
 
 ### Stream details
 
-1. Edit the **Eventstream name** by selecting the pencil icon and entering *TutorialEventstream*.
+1. Edit the **Eventstream name** by selecting the pencil icon and entering +++*TutorialEventstream*+++.
 2. Select **Next**.
 
 ![Screenshot of connect window in Real-Time hub.](media/connect-source.png)
@@ -34,22 +34,25 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 1. Select **Open Eventstream** from the notification that appears after creating the event stream, or browse to the event stream from the Real-time hub and select **Open Eventstream**.
 2. From the menu ribbon, select **Edit**.
 3. In the event stream authoring canvas select the down arrow on the **Transform events or add destination** tile.  
-4. Select **Manage fields**. The tile is renamed to *Manage_fields*.
+4. Select **Manage fields**. The tile is renamed to *Manage_fields1*.
 5. Select the pencil icon on the *Manage_fields* tile.
 6. In the Manage fields pane, do the following actions:
 
-    i. In **Operation name**, enter *TutorialTransform*.  
-    ii. Select **Add all fields**.  
-    iii. Select **+ Add field**.  
+    i. In **Operation name**, enter +++*TutorialTransform*+++.
+    
+    ii. Select **Add all fields**.
+   
+    iii. Select **+ Add field**.
+    
     iv. From the **Built-in Date Time Function** dropdown, select **SYSTEM.Timestamp()**.
+   
+    v. Enter +++*Timestamp*+++ as the **Field name**.
+   
+    vi. Select **Add**.
 
     ![Screenshot showing the system timestamp selected in the event stream manage fields tile in Real-Time Intelligence.](media/system-timestamp.png)
-
-    v. Enter *Timestamp* as the **Field name**.
-
-    vi. Select **Add**.
     
-8. Select **Save**.
+7. Select **Save**.
 > [!NOTE]
 > The *TutorialTransform* tile is now displayed but with an error, because the destination has not been set.
 
@@ -67,10 +70,10 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
     | Field | Value |
     | --- | --- |
-    | **Destination name** | *TutorialDestination* |
+    | **Destination name** | +++*TutorialDestination*+++ |
     | **Workspace** | Select the workspace in which you've created your resources. |
     | **KQL Database** | *Tutorial* |
-    | **Destination table** | *Create new* - enter *TutorialTable* as table name |
+    | **Destination table** | *Create new* - enter +++*TutorialTable*+++ as table name |
     | **Input data format** | *JSON* |  
 
 5. Select **Save**.

@@ -24,13 +24,13 @@ The event stream insights are now available for you to create alerts. In this pa
     | **Save location** | | 
     | Workspace | The workspace in which you created resources|
     | Item | Create a new item |
-    | New item name | Tutorial-Reflex |
+    | New item name | +++Tutorial-Reflex+++ |
 
     ![Screenshot of Set alert pane in Real-Time Intelligence.](media/alert-logic.png)
 
 5. Select **Create**.
 
-    The alert is set and you receive a notification in Teams when the condition is met.
+    At this point, you have completed the last part of the tutorial. The alert is set and you receive a notification in Teams when the condition is met. This takes some time to trigger the alert so you might want to wait for a few minutes to receive the notification on Microsoft Teams.
 
 ## Next step
 

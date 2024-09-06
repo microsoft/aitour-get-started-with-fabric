@@ -6,7 +6,7 @@ In this part of the tutorial, you set up the environment. Specifically, you crea
 1. Sign in to the [Microsoft Fabric portal](https://fabric.microsoft.com).
 2. Choose **Real-Time Intelligence** from the list of options on the home page or the menu bar on the bottom left of the portal.
 3. Select **Workspaces** from the left navigation pane. Then select **+ New workspace**.
-4. Enter a name for the workspace, such as *TutorialWorkspace_@lab.LabInstance.Id*. Select **Apply** when done.
+4. Enter a name for the workspace, such as +++*TutorialWorkspace_@lab.LabInstance.Id*+++. Select **Apply** when done.
 
     ![Screenshot showing how to create a new workspace in Real-Time Intelligence.](media/create-workspace-side-pane.png)
 
@@ -15,7 +15,7 @@ In this part of the tutorial, you set up the environment. Specifically, you crea
 1. Browse to the workspace in which you want to create your tutorial resources.
 2. On the bottom left experience switcher, select **Real-Time Intelligence**.
 3. In the upper left corner, select **+ New > Eventhouse**.
-4. Enter *Tutorial* as the eventhouse name. A KQL database is created simultaneously with the same name.
+4. Enter +++*Tutorial*+++ as the eventhouse name. A KQL database is created simultaneously with the same name.
 5. Select **Create**. When provisioning is complete, the eventhouse **System overview** page is shown.
 
 ## Turn on OneLake availability
