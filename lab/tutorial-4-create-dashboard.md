@@ -4,7 +4,7 @@ In this part of the tutorial, learn how to create a Real-Time dashboard in Real-
 
 ## Create a Real-Time dashboard
 
-1. In your KQL queryset, copy/paste, and run the following query. This query returns a column chart showing the most recent number of bikes by *BikepoointID*.
+1. In your KQL queryset, copy/paste, and run the following query. This query returns a column chart showing the most recent number of bikes by *BikepointID*.
 
     ```kusto
     TutorialTable | summarize arg_max(Timestamp, No_Bikes) by BikepointID | sort by BikepointID | render columnchart with (ycolumns=No_Bikes, xcolumn= BikepointID)
@@ -20,8 +20,8 @@ In this part of the tutorial, learn how to create a Real-Time dashboard in Real-
     | Field | Value |
     | --- | --- |
     | **Create new tile** | *In a new dashboard* |
-    | **Dashboard name** | *TutorialDashboard* |
-    | **Tile name** | *Recent bikes by Bikepoint* |
+    | **Dashboard name** | +++*TutorialDashboard*+++ |
+    | **Tile name** | +++*Recent bikes by Bikepoint*+++ |
     | **Open dashboard after creation** | *Selected* |
 
 4. Select **Create**.
@@ -43,7 +43,7 @@ The new dashboard, *TutorialDashboard*, opens with the *Recent bikes by Bikepoin
 
 4. From the menu ribbon Select **Apply changes**.
 5. This creates a new tile, rename the tile by selecting the **ellipsis icon** on the top right corner of the tile, the select **Rename tile**.
-6. Rename the tile to *Chelsea bikes*. 
+6. Rename the tile to +++*Chelsea bikes*+++. 
 
 
 ## Explore the data visually by adding an aggregation
