@@ -8,6 +8,7 @@ In this part of the tutorial, you learn how to query your streaming data in a [K
 2. Verify that the data is flowing into the database by viewing the **Size** tile in the database details page. The values in this tile should be greater than zero. If the values in the **Size** tile are zero, select **Refresh** from the menu ribbon.
 > [!NOTE]
 > The data will take a few minutes to flow into the database. Wait for a minute or two and then select **Refresh** from the menu ribbon.
+
 3. From the menu ribbon, select **Database** then **New related item** and choose **KQL Queryset**.
 
     ![Screenshot of Tutorial database showing adding a new related item that is a KQL queryset.](media/new-queryset.png)
