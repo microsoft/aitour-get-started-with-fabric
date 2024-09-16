@@ -4,12 +4,15 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
 ## Create an event stream
 
-1. From the navigation bar, select **Real-Time hub**.
+1. From the navigation bar, select **Real-Time hub**. You may get a dialog Welcome to Real-Time hub. Click **Get started** to close the dialog.
+
 2. Select **+ Get events**.
     
     ![Screenshot of Real-time hub with get events highlighted.](media/get-events.png)
 
 3. The **Get events** pane opens. Select **Sample data**. 
+
+    ![Screenshot of Real-time hub with sample data highlighted.](media/sample-data.png)
 
 ### Sample data
 
@@ -34,6 +37,9 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 1. Select **Open Eventstream** from the notification that appears after creating the event stream, or browse to the event stream from the Real-time hub and select **Open Eventstream**.
 2. From the menu ribbon, select **Edit**.
 3. In the event stream authoring canvas select the down arrow on the **Transform events or add destination** tile.  
+
+    ![Screenshot showing the transform events or add destination tile in Real-Time Intelligence.](media/transform-events.png)
+
 4. Select **Manage fields**. The tile is renamed to *Manage_fields1*.
 5. Select the pencil icon on the *Manage_fields* tile.
 6. In the Manage fields pane, do the following actions:
