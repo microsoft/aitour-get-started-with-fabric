@@ -5,6 +5,9 @@ In this part of the tutorial, you set up the environment. Specifically, you crea
 ## Create a workspace
 1. Sign in to the [Microsoft Fabric portal](https://fabric.microsoft.com).
 2. Choose **Real-Time Intelligence** from the list of options on the home page or the menu bar on the bottom left of the portal.
+
+    ![Screenshot showing how to select Real-Time Intelligence from the Fabric homepage.](media/select-real-time-intelligence.png)
+
 3. Select **Workspaces** from the left navigation pane. Then select **+ New workspace**.
 4. Enter a name for the workspace, such as +++*TutorialWorkspace_@lab.LabInstance.Id*+++. Select **Apply** when done.
 
@@ -12,11 +15,14 @@ In this part of the tutorial, you set up the environment. Specifically, you crea
 
 ## Create an eventhouse
 
-1. Browse to the workspace in which you want to create your tutorial resources.
+1. Browse to the workspace that you just created in the previous step. It will be located in the left hand navigation pane under Workspaces.
 2. On the bottom left experience switcher, select **Real-Time Intelligence**.
-3. In the upper left corner, select **+ New > Eventhouse**.
+3. In the upper left corner, select **+ New Item> Eventhouse**. The Eventhouse item will be located under the Store data section.
+
+    ![Screenshot showing how to create a new eventhouse in Real-Time Intelligence.](media/create-eventhouse.png)
+
 4. Enter +++*Tutorial*+++ as the eventhouse name. A KQL database is created simultaneously with the same name.
-5. Select **Create**. When provisioning is complete, the eventhouse **System overview** page is shown.
+5. Select **Create**. When provisioning is complete, Select **Get started** and the eventhouse **System overview** page is shown.
 
 ## Turn on OneLake availability
 
@@ -32,4 +38,4 @@ In this part of the tutorial, you set up the environment. Specifically, you crea
 
 ## Next step
 
-> Select **Next >** to get data in the Real-Time Hub
+> Select **Next >** in these instructions to go to the next part of the tutorial: Get data in the Real-Time hub.
