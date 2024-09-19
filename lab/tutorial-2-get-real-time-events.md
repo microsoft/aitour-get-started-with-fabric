@@ -65,12 +65,12 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 ## Create a destination
 
 1. Hover over the right edge of the *TutorialTransform* tile and select the green plus icon.
-2. Select **Destinations** > **KQL Database**.
+2. Select **Destinations** > **Eventhouse**.
 
-    A new tile is created entitled *KQLDatabase1*.
+    A new tile is created entitled *Eventhouse1*.
 
-3. Select the pencil icon on the *KQLDatabase1* tile.
-4. Enter the following information in the **KQL Database** pane:
+3. Select the pencil icon on the *Eventhouse1* tile.
+4. Enter the following information in the **Eventhouse** pane:
 
     ![Screenshot showing the KQL database destination pane in Real-Time Intelligence.](media/kql-database-details.png)
 
@@ -78,6 +78,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
     | --- | --- |
     | **Destination name** | +++*TutorialDestination*+++ |
     | **Workspace** | Select the workspace in which you've created your resources. |
+    | **Eventhouse** | *Tutorial* |
     | **KQL Database** | *Tutorial* |
     | **Destination table** | *Create new* - enter +++*TutorialTable*+++ as table name |
     | **Input data format** | *JSON* |  
