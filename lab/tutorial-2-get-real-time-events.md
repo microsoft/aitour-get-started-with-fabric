@@ -4,12 +4,15 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
 ## Create an event stream
 
-1. From the navigation bar, select **Real-Time hub**.
+1. From the navigation bar, select **Real-Time hub**. You may get a dialog Welcome to Real-Time hub. Click **Get started** to close the dialog.
+
 2. Select **+ Get events**.
     
     ![Screenshot of Real-time hub with get events highlighted.](media/get-events.png)
 
 3. The **Get events** pane opens. Select **Sample data**. 
+
+    ![Screenshot of Real-time hub with sample data highlighted.](media/sample-data.png)
 
 ### Sample data
 
@@ -27,18 +30,21 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
 1. Review the event stream details and select **Create source**.
 
-   A new event stream named +++*TutorialEventstream*+++ is created.
+   A new event stream named *TutorialEventstream* is created.
 
 ## Transform events
 
 1. Select **Open Eventstream** from the notification that appears after creating the event stream, or browse to the event stream from the Real-time hub and select **Open Eventstream**.
 2. From the menu ribbon, select **Edit**.
 3. In the event stream authoring canvas select the down arrow on the **Transform events or add destination** tile.  
+
+    ![Screenshot showing the transform events or add destination tile in Real-Time Intelligence.](media/transform-events.png)
+
 4. Select **Manage fields**. The tile is renamed to *Manage_fields1*.
 5. Select the pencil icon on the *Manage_fields* tile.
 6. In the Manage fields pane, do the following actions:
 
-    i. In **Operation name**, enter *TutorialTransform*.
+    i. In **Operation name**, enter +++*TutorialTransform*+++.
     
     ii. Select **Add all fields**.
    
@@ -59,12 +65,12 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 ## Create a destination
 
 1. Hover over the right edge of the *TutorialTransform* tile and select the green plus icon.
-2. Select **Destinations** > **KQL Database**.
+2. Select **Destinations** > **Eventhouse**.
 
-    A new tile is created entitled *KQLDatabase1*.
+    A new tile is created entitled *Eventhouse1*.
 
-3. Select the pencil icon on the *KQLDatabase1* tile.
-4. Enter the following information in the **KQL Database** pane:
+3. Select the pencil icon on the *Eventhouse1* tile.
+4. Enter the following information in the **Eventhouse** pane:
 
     ![Screenshot showing the KQL database destination pane in Real-Time Intelligence.](media/kql-database-details.png)
 
@@ -72,8 +78,9 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
     | --- | --- |
     | **Destination name** | +++*TutorialDestination*+++ |
     | **Workspace** | Select the workspace in which you've created your resources. |
+    | **Eventhouse** | *Tutorial* |
     | **KQL Database** | *Tutorial* |
-    | **Destination table** | *Create new* - enter *TutorialTable* as table name |
+    | **Destination table** | *Create new* - enter +++*TutorialTable*+++ as table name |
     | **Input data format** | *JSON* |  
 
 5. Select **Save**.
