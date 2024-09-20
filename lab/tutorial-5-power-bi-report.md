@@ -37,7 +37,7 @@ A Power BI report is a multi-perspective view into a semantic model, with visual
 ### Save the report
 
 1. In the top left corner of the ribbon, select **File** > **Save**.
-2. Enter the name +++*TutuorialReport*+++. Choose your workspace, and set sensitivity as Public.
+2. Enter the name +++*TutuorialReport*+++ and choose your workspace.
 3. Select **Continue**.
 4. Select **Open the file in Power BI to view, edit, and get a shareable link.**
 

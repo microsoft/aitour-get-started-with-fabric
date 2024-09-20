@@ -44,9 +44,9 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
    
     iii. Select **+ Add field**.
     
-    iv. From the **Built-in Date Time Function** dropdown, select **SYSTEM.Timestamp()**.
+    iv. From the **Field** dropdown, expand **Built-in Date Time Function** then select **SYSTEM.Timestamp()**.
    
-    v. Enter +++*Timestamp*+++ as the **Field name**.
+    v. Enter +++*Timestamp*+++ as the **Name**.
    
     vi. Select **Add**.
 

@@ -20,7 +20,7 @@ In this part of the tutorial, you set up the environment. Specifically, you crea
 
 ## Turn on OneLake availability
 
-1. From the **System overview** page, select the KQL database you created in the previous step.
+1. From the **System overview** page, select the KQL database which was created in the previous step.
 
     ![Screnshot of the System overview for new eventhouse with Tutorial database selected and highlighted with a red box.](media/select-tutorial-database.png)
 

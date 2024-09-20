@@ -14,8 +14,7 @@ In this part of the tutorial, you learn how to query your streaming data in a [K
 
 4. Enter the name for the KQL Queryset: +++*TutorialQueryset*+++ and select **Create**.
 5. Select the *Tutorial* database as the data source for the KQL queryset then select  **Connect**
-6. Select **Create**.
-    A new KQL queryset is created and opens in the KQL Queryset editor. It's connected to the *Tutorial* database as a data source, and is pre-populated with several general queries.
+6. A new KQL queryset is created and opens in the KQL Queryset editor. It's connected to the *Tutorial* database as a data source, and is pre-populated with several general queries.
 
 ## Write a KQL query
 
