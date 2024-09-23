@@ -4,7 +4,7 @@ In this part of the tutorial, you learn how to query your streaming data in a [K
 
 ## Create a KQL queryset
 
-1. From the navigation bar open the KQL database that was created automantic when you created an Eventhouse in a previous step, named *Tutorial*.
+1. From the navigation bar open the KQL database that was automatically created when you created an Eventhouse in a previous step, named *Tutorial*.
 2. Verify that the data is flowing into the database by viewing the **Size** tile in the database details page. The values in this tile should be greater than zero. If the values in the **Size** tile are zero, select **Refresh** from the menu ribbon.
 > [!NOTE]
 > The data will take a few minutes to flow into the database. Wait for a minute or two and then select **Refresh** from the menu ribbon.
