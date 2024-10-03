@@ -16,13 +16,20 @@ In this part of the tutorial, you set up the environment. Specifically, you crea
 ## Create an eventhouse
 
 1. Browse to the workspace that you just created in the previous step. It will be located in the left hand navigation pane under Workspaces.
-2. On the bottom left experience switcher, select **Real-Time Intelligence**.
-3. In the upper left corner, select **+ New Item> Eventhouse**. The Eventhouse item will be located under the Store data section.
+2. Ensure that there is a diamond icon next to the workspace name, which indicates that the workspace is associated with a Fabric Capacity *(in this case the free trial)*.
+
+    ![Screenshot showing the diamond icon next to the workspace name.](media/workspace-diamond-icon.png)
+
+    If the diamond icon is not present, select **Workspace Settings** >  **License Info**. On the License Configuration tile, Select the **Edit**, under License Mode select **Trial**  and finally select *Select License*.
+
+
+3. On the bottom left experience switcher, select **Real-Time Intelligence**.
+4. In the upper left corner, select **+ New Item> Eventhouse**. The Eventhouse item will be located under the Store data section.
 
     ![Screenshot showing how to create a new eventhouse in Real-Time Intelligence.](media/create-eventhouse.png)
 
-4. Enter +++*Tutorial*+++ as the eventhouse name. A KQL database is created simultaneously with the same name.
-5. Select **Create**. When provisioning is complete, Select **Get started** and the eventhouse **System overview** page is shown.
+5. Enter +++*Tutorial*+++ as the eventhouse name. A KQL database is created simultaneously with the same name.
+6. Select **Create**. When provisioning is complete, Select **Get started** and the eventhouse **System overview** page is shown.
 
 ## Turn on OneLake availability
 
