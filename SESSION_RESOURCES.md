@@ -26,6 +26,13 @@ For your convenience, here is a list of all the links shared as QR codes during 
 
 ## Dive Deeper into Microsoft Fabric
 
+### 👷‍♀️ Microsoft Fabric and AI Learning Hackathon
+
+This is your chance to dive deep into the future of AI and cloud innovation, leveraging the powerful capabilities of Microsoft Fabric and Azure OpenAI services. Whether you're an AI enthusiast, a cloud computing expert, or a database guru, this hackathon is the perfect platform to showcase your skills and creativity.
+
+[Join the Microsoft Fabric and AI Learning Hackathon on Devpost](https://microsoftfabric.devpost.com)
+
+
 ### 👩‍💻 Microsoft Fabric Career Hub
 
 The one-stop location to begin your learning journey for the [DP-600: Implementing Analytics Solutions Using Microsoft Fabric certification](https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-600/).
