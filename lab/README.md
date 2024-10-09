@@ -34,7 +34,8 @@ This folder contains the public facing files for the lab `Microsoft Fabric: Star
 ## Activate a Fabric trial
 
 1. After signing up for a free Fabric account, in the Fabric portal at +++https://app.fabric.microsoft.com+++, select the **Account Manager** icon (the *user* image at the top right) and in the menu, select **Free trial** and then select **Activate** to start a Microsoft Fabric trial.
-2. After the t you can continue in the browser session - you will want to remember the **email** and **password** you used to sign up for Microsoft Fabric - you'll need them in the exercises (You can also find your credentials under the **Resources** tab).
+![Screenshot showing how to activate a Fabric trial in the Fabric portal.](media/activate-fabric-trial.png)
+2. After the trial has been started, you can continue in the browser session - you will want to remember the **email** and **password** you used to sign up for Microsoft Fabric - you'll need them in the exercises (You can also find your credentials under the **Resources** tab).
 
 ## Exercises in this lab
 
