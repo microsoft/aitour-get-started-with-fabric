@@ -6,22 +6,22 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
 1. From the navigation bar, select **Real-Time hub**. You may get a dialog Welcome to Real-Time hub. Click **Get started** to close the dialog.
 
-2. Select **+ Get events**.
-    
-    ![Screenshot of Real-time hub with get events highlighted.](media/get-events.png)
+2. Select **+ Add source**.
 
-3. The **Get events** pane opens. Select **Sample data**. 
+   ![Screenshot of Real-time hub with add source highlighted.](media/add-source.png)
 
-    ![Screenshot of Real-time hub with sample data highlighted.](media/sample-data.png)
+3. The **Select a data source** pane opens. Select **Sample data**.
+
+   ![Screenshot of Real-time hub with sample data highlighted.](media/sample-data.png)
 
 ### Sample data
 
-1. In **Source name**, enter +++*TutorialSource*+++.
-2. In **Sample data** select *Bicycles (Reflex compatible)*.
+1. In **Source name**, enter +++_TutorialSource_+++.
+2. In **Sample data** select _Bicycles (Reflex compatible)_.
 
 ### Stream details
 
-1. Edit the **Eventstream name** by selecting the pencil icon and entering +++*TutorialEventstream*+++.
+1. Edit the **Eventstream name** by selecting the pencil icon and entering +++_TutorialEventstream_+++.
 2. Select **Next**.
 
 ![Screenshot of connect window in Real-Time hub.](media/connect-source.png)
@@ -30,58 +30,58 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
 1. Review the event stream details and select **Create source**.
 
-   A new event stream named *TutorialEventstream* is created.
+   A new event stream named _TutorialEventstream_ is created.
 
 ## Transform events
 
 1. Select **Open Eventstream** from the notification that appears after creating the event stream, or browse to the event stream from the Real-time hub and select **Open Eventstream**.
 2. From the menu ribbon, select **Edit**.
-3. In the event stream authoring canvas select the down arrow on the **Transform events or add destination** tile.  
+3. In the event stream authoring canvas select the down arrow on the **Transform events or add destination** tile.
 
-    ![Screenshot showing the transform events or add destination tile in Real-Time Intelligence.](media/transform-events.png)
+   ![Screenshot showing the transform events or add destination tile in Real-Time Intelligence.](media/transform-events.png)
 
-4. Select **Manage fields**. The tile is renamed to *Manage_fields1*.
-5. Select the pencil icon on the *Manage_fields* tile.
+4. Select **Manage fields**. The tile is renamed to _Manage_fields_.
+5. Select the pencil icon on the _Manage_fields_ tile.
 6. In the Manage fields pane, do the following actions:
 
-    i. In **Operation name**, enter +++*TutorialTransform*+++.
-    
-    ii. Select **Add all fields**.
-   
-    iii. Select **+ Add field**.
-    
-    iv. From the **Field** dropdown, expand **Built-in Date Time Function** then select **SYSTEM.Timestamp()**.
-   
-    v. Enter +++*Timestamp*+++ as the **Name**.
-   
-    vi. Select **Add**.
+   i. In **Operation name**, enter +++_TutorialTransform_+++.
 
-    ![Screenshot showing the system timestamp selected in the event stream manage fields tile in Real-Time Intelligence.](media/system-timestamp.png)
-    
+   ii. Select **Add all fields**.
+
+   iii. Select **+ Add field**.
+
+   iv. From the **Field** dropdown, expand **Built-in Date Time Function** then select **SYSTEM.Timestamp()**.
+
+   v. Enter +++_Timestamp_+++ as the **Name**.
+
+   vi. Select **Add**.
+
+   ![Screenshot showing the system timestamp selected in the event stream manage fields tile in Real-Time Intelligence.](media/system-timestamp.png)
+
 7. Select **Save**.
-> [!NOTE]
-> The *TutorialTransform* tile is now displayed but with an error, because the destination has not been set.
+   > [!NOTE]
+   > The _TutorialTransform_ tile is now displayed but with an error, because the destination has not been set.
 
 ## Create a destination
 
-1. Hover over the right edge of the *TutorialTransform* tile and select the green plus icon.
+1. Hover over the right edge of the _TutorialTransform_ tile and select the green plus icon.
 2. Select **Destinations** > **Eventhouse**.
 
-    A new tile is created entitled *Eventhouse1*.
+   A new tile is created entitled _Eventhouse_.
 
-3. Select the pencil icon on the *Eventhouse1* tile.
+3. Select the pencil icon on the _Eventhouse_ tile.
 4. Enter the following information in the **Eventhouse** pane:
 
-    ![Screenshot showing the KQL database destination pane in Real-Time Intelligence.](media/kql-database-details.png)
+   ![Screenshot showing the KQL database destination pane in Real-Time Intelligence.](media/kql-database-details.png)
 
-    | Field | Value |
-    | --- | --- |
-    | **Destination name** | +++*TutorialDestination*+++ |
-    | **Workspace** | Select the workspace in which you've created your resources. |
-    | **Eventhouse** | *Tutorial* |
-    | **KQL Database** | *Tutorial* |
-    | **Destination table** | *Create new* - enter +++*TutorialTable*+++ as table name |
-    | **Input data format** | *JSON* |  
+   | Field                 | Value                                                        |
+   | --------------------- | ------------------------------------------------------------ |
+   | **Destination name**  | +++_TutorialDestination_+++                                  |
+   | **Workspace**         | Select the workspace in which you've created your resources. |
+   | **Eventhouse**        | _Tutorial_                                                   |
+   | **KQL Database**      | _Tutorial_                                                   |
+   | **Destination table** | _Create new_ - enter +++_TutorialTable_+++ as table name     |
+   | **Input data format** | _JSON_                                                       |
 
 5. Select **Save**.
 6. From the menu ribbon select **Publish**.

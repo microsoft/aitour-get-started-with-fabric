@@ -24,11 +24,13 @@ In this part of the tutorial, you set up the environment. Specifically, you crea
 
 
 3. On the bottom left experience switcher, select **Real-Time Intelligence**.
-4. In the upper left corner, select **+ New Item> Eventhouse**. The Eventhouse item will be located under the Store data section.
+
+4. In upper right corner under recommended items to create select **Eventhouse**.
 
     ![Screenshot showing how to create a new eventhouse in Real-Time Intelligence.](media/create-eventhouse.png)
 
-5. Enter +++*Tutorial*+++ as the eventhouse name. A KQL database is created simultaneously with the same name.
+5. Enter +++*Tutorial*+++ as the eventhouse name. A KQL database will be created simultaneously with the same name.
+
 6. Select **Create**. When provisioning is complete, Select **Get started** and the eventhouse **System overview** page is shown.
 
 ## Turn on OneLake availability
@@ -37,8 +39,7 @@ In this part of the tutorial, you set up the environment. Specifically, you crea
 
     ![Screnshot of the System overview for new eventhouse with Tutorial database selected and highlighted with a red box.](media/select-tutorial-database.png)
 
-2. In the **Database details** section, select the **pencil icon** next to **OneLake availability**.
-3. Toggle the button to **Active** and select **Done**.
+2. In the **Database details** section, toggle OneLake Availability to **On**. In the confirmation dialog ensure **Apply to existing tables is checked**  and select **Turn on**.
 
     ![Screenshot showing how to turn on OneLake availability.](media/one-lake-availability.png)
 
