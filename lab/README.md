@@ -21,7 +21,7 @@ This folder contains the public facing files for the lab `Microsoft Fabric: Star
     * **Password**: +++@lab.CloudPortalCredential(User1).Password+++
 3. Complete the sign up process to create a new account.
 4. After signing in to Teams, select **OK** when prompted to stay signed in to all your apps and then select **Done** to complete.
-5. Choose **Start Trial** and when prompted allow Teams to be the default app for chats and calls select **Continue**.
+5. Choose **Explore Trial** and when prompted allow Teams to be the default app for chats and calls select **Continue**.
 
 ## Create a free-tier Fabric account
 
