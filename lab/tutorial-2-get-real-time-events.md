@@ -28,7 +28,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
 ### Review and create
 
-1. Review the event stream details and select **Create source**.
+1. Review the event stream details and select **Connect**.
 
    A new event stream named _TutorialEventstream_ is created.
 
