@@ -59,8 +59,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
    ![Screenshot showing the system timestamp selected in the event stream manage fields tile in Real-Time Intelligence.](media/system-timestamp.png)
 
 7. Select **Save**.
-   > [!NOTE]
-   > The _TutorialTransform_ tile is now displayed but with an error, because the destination has not been set.
+   > Note: The _TutorialTransform_ tile is now displayed but with an error, because the destination has not been set.
 
 ## Create a destination
 
