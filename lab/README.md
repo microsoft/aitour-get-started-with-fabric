@@ -21,7 +21,7 @@ This folder contains the public facing files for the lab `Microsoft Fabric: Star
     * **Password**: +++@lab.CloudPortalCredential(User1).Password+++
 3. Complete the sign up process to create a new account.
 4. After signing in to Teams, select **OK** when prompted to stay signed in to all your apps and then select **Done** to complete.
-5. Choose **Start Trial** and when prompted allow Teams to be the default app for chats and calls select **Continue**.
+5. Choose **Activate / Explore / Unlock Trial** and when prompted allow Teams to be the default app for chats and calls select **Continue**.
 
 ## Create a free-tier Fabric account
 
@@ -34,7 +34,8 @@ This folder contains the public facing files for the lab `Microsoft Fabric: Star
 ## Activate a Fabric trial
 
 1. After signing up for a free Fabric account, in the Fabric portal at +++https://app.fabric.microsoft.com+++, select the **Account Manager** icon (the *user* image at the top right) and in the menu, select **Free trial** and then select **Activate** to start a Microsoft Fabric trial.
-2. After the t you can continue in the browser session - you will want to remember the **email** and **password** you used to sign up for Microsoft Fabric - you'll need them in the exercises (You can also find your credentials under the **Resources** tab).
+![Screenshot showing how to activate a Fabric trial in the Fabric portal.](media/activate-fabric-trial.png)
+2. After the trial has been started, you can continue in the browser session - you will want to remember the **email** and **password** you used to sign up for Microsoft Fabric - you'll need them in the exercises (You can also find your credentials under the **Resources** tab).
 
 ## Exercises in this lab
 
