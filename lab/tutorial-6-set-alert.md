@@ -4,8 +4,8 @@ The event stream insights are now available for you to create alerts. In this pa
 
 ## Set an alert on the event stream
 
-1. From the left navigation bar, select **Real-Time hub**.
-2. Select the event stream you created in the previous tutorial named *TutorialEventstream*.
+1. From the left navigation bar, select **Real-Time** to open the *Real-Time hub*. 
+2. Under **All data streams** select the event stream you created in the previous tutorial named *TutorialEventstream*.
     The event stream details page opens.
     
     ![Screenshot of event streams details page and set alert selected.](media/set-alert.png)

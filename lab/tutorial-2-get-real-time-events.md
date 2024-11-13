@@ -4,20 +4,19 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
 ## Create an event stream
 
-1. From the navigation bar, select **Real-Time hub**. You may get a dialog Welcome to Real-Time hub. Click **Get started** to close the dialog.
+1. From the navigation bar, select **Real-Time**. You may get a dialog Welcome to Real-Time hub. Click **Get started** to close the dialog.
 
-2. Select **+ Add source**.
+2. Select **+ Connect data source**.
 
    ![Screenshot of Real-time hub with add source highlighted.](media/add-source.png)
 
-3. The **Select a data source** pane opens. Select **Sample data**.
+3. The **Select a data source** pane opens. Select **Connect** in the _Bicycles rentals_ tile.
 
    ![Screenshot of Real-time hub with sample data highlighted.](media/sample-data.png)
 
 ### Sample data
 
 1. In **Source name**, enter +++_TutorialSource_+++.
-2. In **Sample data** select _Bicycles (Reflex compatible)_.
 
 ### Stream details
 
@@ -26,7 +25,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
 ![Screenshot of connect window in Real-Time hub.](media/connect-source.png)
 
-### Review and create
+### Review + connect
 
 1. Review the event stream details and select **Connect**.
 
@@ -34,7 +33,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
 ## Transform events
 
-1. Select **Open Eventstream** from the notification that appears after creating the event stream, or browse to the event stream from the Real-time hub and select **Open Eventstream**.
+1. Select **Open Eventstream** from the notification that appears after creating the event stream, or browse to the event stream from the Real-time hub and select **My data streams**.
 2. From the menu ribbon, select **Edit**.
 3. In the event stream authoring canvas select the down arrow on the **Transform events or add destination** tile.
 
@@ -84,6 +83,11 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
 5. Select **Save**.
 6. From the menu ribbon select **Publish**.
+
+   > [!NOTE]
+   > In case you see the Source has been deactivated, as in the screenshot below, select **Activate all** to manually activate the source.
+
+   ![Screenshot showing the source deactivated in Real-Time Intelligence.](media/source-deactivated.png)
 
 The event stream is now set up to transform events and send them to a KQL database. The insights are not yet available to create alerts, you will do this in a later step so you can monitor the number of bikes in real-time. For now, you can move on to the next step to query the data in the KQL database.
 
