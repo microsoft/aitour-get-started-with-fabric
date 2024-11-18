@@ -3,20 +3,23 @@
 In this part of the tutorial, you set up the environment. Specifically, you create a *workspace* and an *eventhouse*, which automatically creates a child KQL database, and then you enable OneLake availability.
 
 ## Create a workspace
-1. Sign in to the [Microsoft Fabric portal](https://fabric.microsoft.com).
-2. Choose **Real-Time Intelligence** from the list of options on the home page or the menu bar on the bottom left of the portal.
+1. In the virtual machine, open a web browser and browse to +++https://app.fabric.microsoft.com+++.
+2. When prompted, sign in using the following credentials:
+    * **Email**: +++@lab.CloudPortalCredential(User1).Username+++
+    * **Password**: +++@lab.CloudPortalCredential(User1).Password+++
+3. Choose **Real-Time Intelligence** from the list of options on the home page or the menu bar on the bottom left of the portal.
 
     ![Screenshot showing how to select Real-Time Intelligence from the Fabric homepage.](media/select-real-time-intelligence.png)
 
-3. Select **Workspaces** from the left navigation pane. Then select **+ New workspace**.
-4. Enter a name for the workspace, such as +++*TutorialWorkspace_@lab.LabInstance.Id*+++. Expand the **Advanced** option and make sure **Trial** is selected then select **Apply** when done.
+4. Select **Workspaces** from the left navigation pane. Then select **+ New workspace**.
+5. Enter a name for the workspace, such as +++*TutorialWorkspace_@lab.LabInstance.Id*+++. Expand the **Advanced** option and make sure **Fabric Capacity** is selected then select **Apply** when done.
 
     ![Screenshot showing how to create a new workspace in Real-Time Intelligence.](media/create-workspace-side-pane.png)
 
 ## Create an eventhouse
 
 1. Browse to the workspace that you just created in the previous step. It will be located in the left hand navigation pane under Workspaces.
-2. Ensure that there is a diamond icon next to the workspace name, which indicates that the workspace is associated with a Fabric Capacity *(in this case the free trial)*.
+2. Ensure that there is a diamond icon next to the workspace name, which indicates that the workspace is associated with a Fabric Capacity.
 
     ![Screenshot showing the diamond icon next to the workspace name.](media/workspace-diamond-icon.png)
 
