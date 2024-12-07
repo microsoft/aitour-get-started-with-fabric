@@ -31,7 +31,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
 2. From the menu ribbon, select **Edit**. The authoring canvas, which is the center section, turns yellow and becomes active for changes.
 
-   ![Screenshot showing the edit button in Real-Time Intelligence.](media/edit-eventstream.png)
+   ![Screenshot showing the edit button in Real-Time Intelligence.](media/event-stream-edit-button.png)
 
 3. In the event stream authoring canvas select the down arrow on the **Transform events or add destination** tile, and then select **Manage fields**. The tile is renamed to _ManageFields_.
 
