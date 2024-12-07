@@ -49,23 +49,27 @@ Select **Next >** to go to the first exercise.
 
 ===
 
-!INSTRUCTIONS [Real-Time Intelligence tutorial part 3: Query streaming data in a KQL queryset](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-3-query-data.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 3: Transform data in a KQL database](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-3-transform-kql-database.md)
 
 ===
 
-!INSTRUCTIONS [Real-Time Intelligence tutorial part 4: Create a Real-Time dashboard](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-4-create-dashboard.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 4: Query streaming data using KQL](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-4-query-data.md)
 
 ===
 
-!INSTRUCTIONS [Real-Time Intelligence tutorial part 5: Create a Power BI report](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-5-power-bi-report.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 5: Create a Real-Time dashboard](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-5-create-dashboard.md)
 
 ===
 
-!INSTRUCTIONS [Real-Time Intelligence tutorial part 6: Set an alert on your event stream](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-6-set-alert.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 6: Create a Power BI report](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-6-power-bi-report.md)
 
 ===
 
-!INSTRUCTIONS [Real-Time Intelligence tutorial part 7: Clean up resources](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-7-clean-up-resources.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 7: Set an alert on your eventstream](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-7-set-alert.md)
+
+===
+
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 8: Clean up resources](https://raw.githubusercontent.com/microsoft/aitour-get-started-with-fabric/main/lab/tutorial-8-clean-up-resources.md)
 
 ## Discussions
 

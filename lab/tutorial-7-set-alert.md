@@ -24,7 +24,7 @@ The event stream insights are now available for you to create alerts. In this pa
     | **Save location** | | 
     | Workspace | The workspace in which you created resources|
     | Item | Create a new item |
-    | New item name | +++Tutorial-Reflex+++ |
+    | New item name | +++Tutorial+++ |
 
     ![Screenshot of Set alert pane in Real-Time Intelligence.](media/alert-logic.png)
 
