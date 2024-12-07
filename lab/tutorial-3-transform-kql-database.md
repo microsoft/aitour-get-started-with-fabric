@@ -37,7 +37,9 @@ In this step, you create a stored function that holds the transformation logic t
 3. Edit the function so that it matches the following code, or copy/paste the following command into the query editor.
 
     ```kusto
-    .create-or-alter function TransformRawData() { RawData | parse BikepointID with * "BikePoints_" BikepointID:int | extend BikesToBeFilled = No_Empty_Docks - No_Bikes | extend Action = iff(BikesToBeFilled > 0, tostring(BikesToBeFilled), "NA") }
+    .create-or-alter function TransformRawData() { 
+        RawData | parse BikepointID with * "BikePoints_" BikepointID:int | extend BikesToBeFilled = No_Empty_Docks - No_Bikes | extend Action = iff(BikesToBeFilled > 0, tostring(BikesToBeFilled), "NA") 
+    }
     ```
 
 4. Run the command to create the function.

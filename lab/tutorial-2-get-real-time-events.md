@@ -86,8 +86,8 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 6. Select **Save**.
 7. From the menu ribbon select **Publish**.
 
-   > [!NOTE]
-   > In case you see the Source has been deactivated, as in the screenshot below, select **Activate all** to manually activate the source.
+> [!NOTE]
+> In case you see the Source has been deactivated, as in the screenshot below, select **Activate all** to manually activate the source.
 
    ![Screenshot showing the source deactivated in Real-Time Intelligence.](media/source-deactivated.png)
 
