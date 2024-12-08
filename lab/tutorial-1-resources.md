@@ -36,17 +36,6 @@ In this part of the tutorial, you set up the environment. Specifically, you crea
 
 6. Select **Create**. When provisioning is complete, Select **Get started** and the eventhouse **System overview** page is shown.
 
-## Turn on OneLake availability
-
-1. From the **System overview** page, select the KQL database which was created in the previous step.
-
-    ![Screnshot of the System overview for new eventhouse with Tutorial database selected and highlighted with a red box.](media/select-tutorial-database.png)
-
-2. In the **Database details** section, toggle OneLake Availability to **On**. In the confirmation dialog ensure **Apply to existing tables is checked**  and select **Turn on**.
-
-    ![Screenshot showing how to turn on OneLake availability.](media/one-lake-availability.png)
-
-
 ## Next step
 
 > Select **Next >** in these instructions to go to the next part of the tutorial: Get data in the Real-Time hub.

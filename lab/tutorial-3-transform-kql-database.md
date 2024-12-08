@@ -17,7 +17,7 @@ In this step, you move the raw data table into a Bronze folder to organize the d
 In this step, you create a target table that will be used to store the data that is transformed with the update policy.
 
 1. Browse to the KQL database you created in a previous step, named *Tutorial*.
-2. In the object tree, under the KQL database name, select the query workspace called **Tutorial_queryset**.
+2. In the object tree, under the KQL database name, select the default KQL queryset called **Tutorial_queryset**.
 3. Copy/paste the following command to create a new table called **TransformedData** with a specified schema.
 
     ```kusto
