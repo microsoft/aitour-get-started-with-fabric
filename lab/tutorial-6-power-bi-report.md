@@ -5,7 +5,7 @@ A Power BI report is a multi-perspective view into a semantic model, with visual
 ## Build a Power BI report
 
 1. Browse to the KQL database you created in a previous step, named *Tutorial*.
-2. In the object tree, under the KQL database name, select the query workspace called **Tutorial_queryset**.
+2. In the object tree, under the KQL database name, select the default KQL queryset called **Tutorial_queryset**.
 3. Copy and paste the following query into the query editor. The output of this query is used as the semantic model for building the Power BI report. 
 
     ```kusto
