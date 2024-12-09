@@ -26,7 +26,8 @@ In this step, you create a materialized view, which returns an up-to-date result
     .create-or-alter materialized-view with (folder="Gold") AggregatedData on table TransformedData { TransformedData | summarize arg_max(Timestamp,No_Bikes) by BikepointID }
     ```
 
-2. Copy/paste and run the following query to see the data in the materialized view visualized as a column chart:
+2. Remove the extra curly bracket '}' and run the command to create the materialized view.
+3. Copy/paste and run the following query to see the data in the materialized view visualized as a column chart:
 
     ```kusto
     AggregatedData | sort by BikepointID | render columnchart with (ycolumns=No_Bikes,xcolumn=BikepointID)

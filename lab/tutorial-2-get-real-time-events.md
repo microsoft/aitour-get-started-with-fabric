@@ -15,7 +15,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
    ![Screenshot of Real-time hub with sample data highlighted.](media/sample-data.png)
 
 4. On the **Connect page**, for **Source name**, enter +++_TutorialSource_+++.
-5. In the **Stream details** section, select the pencil icon, and change the name of the eventstream to +++_TutorialEventstream_+++, and then select **Next**.
+5. In the **Stream details** section, under _Workspace_ select your workpace and then select the pencil icon, and change the name of the eventstream to +++_TutorialEventstream_+++, and then select **Next**.
 
    ![Screenshot of connect window in Real-Time hub.](media/connect-source.png)
 

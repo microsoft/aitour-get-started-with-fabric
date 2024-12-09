@@ -50,7 +50,7 @@ Since you've selected **Open dashboard after creation**, the new Real-Time dashb
 1. On the new **Chelsea bikes** tile, select the **Explore** icon. ![Screenshot of the explore icon](media/explore-icon.png)
 2. Select **+ Add** > **Aggregation**.
 3. Select **Operator** > **max** and **Column** > *No_Bikes*.
-4. Under **Display Name**, enter *Max_Bikes*.
+4. Under **Display Name**, enter +++*Max_Bikes*+++.
 5. Select **+ Add grouping**.
 6. Select **Group by** > *Street*.
 7. Select **Apply**.
