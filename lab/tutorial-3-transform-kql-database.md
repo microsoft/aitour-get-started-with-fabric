@@ -42,7 +42,7 @@ In this step, you create a stored function that holds the transformation logic t
     }
     ```
 
-4. Run the command to create the function.
+4. Remove the extra curly brack '}' and run the command to create the function.
     You should now see the function **TransformedRawData** under the **Functions** node in the object tree.
 
 ## Apply update policy
@@ -64,7 +64,7 @@ In this step, you apply an update policy to the target table to transform the da
     }]```
     ~~~
 
-4. Run the command to create the update policy.
+4. Remove the extra closing square and curly brackets '}]' and run the command to create the update policy.
 
 ## Verify transformation
 

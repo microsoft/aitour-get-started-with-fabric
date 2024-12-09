@@ -12,7 +12,7 @@ A Power BI report is a multi-perspective view into a semantic model, with visual
     RawData | summarize arg_max(Timestamp, No_Bikes,  No_Empty_Docks, Neighbourhood, Lat=todouble(Latitude), Lon=todouble(Longitude)) by BikepointID
     ```
 
-4. Select **Power BI**. The Power BI report editor opens with the query result available as a data source named **Kusto Query Result**.
+4. Select **Create Power BI report**. The Power BI report editor opens with the query result available as a data source named **Kusto Query Result**.
 
 ### Add visualizations to the report
 
