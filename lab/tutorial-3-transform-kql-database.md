@@ -42,7 +42,7 @@ In this step, you create a stored function that holds the transformation logic t
     }
     ```
 
-4. Remove the extra curly brack '}' and run the command to create the function.
+4. Remove the extra closing curly bracket '}' and run the command to create the function.
     You should now see the function **TransformedRawData** under the **Functions** node in the object tree.
 
 ## Apply update policy
