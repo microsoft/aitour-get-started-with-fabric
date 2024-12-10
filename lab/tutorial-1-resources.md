@@ -16,6 +16,10 @@ In this part of the tutorial, you set up the environment. Specifically, you crea
 
     ![Screenshot showing how to create a new workspace in Real-Time Intelligence.](media/create-workspace-side-pane.png)
 
+6. **OPTIONAL**: If the Fabric Capacity option is disabled, activate a trial license by selecting the **Account Manager** icon (the user image at the top right) and in the menu, select **Free trial** and then select **Activate** to start a Fabric Trial.
+
+    ![Screenshot showing how to activate a Fabric trial license in Real-Time Intelligence.](media/activate-fabric-trial.png)
+
 ## Create an eventhouse
 
 1. Browse to the workspace that you just created in the previous step. It will be located in the left hand navigation pane under Workspaces.
