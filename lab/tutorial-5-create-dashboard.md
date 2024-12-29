@@ -7,7 +7,9 @@ In this part of the tutorial, you learn how to create a Real-Time Dashboard in R
 1. In your KQL queryset, copy/paste, and run the following query. This query might already have been run from the previous section in this tutorial. This query returns a column chart showing the most recent number of bikes by *BikepointID*.
 
     ```kusto
-    AggregatedData | sort by BikepointID | render columnchart with (ycolumns=No_Bikes,xcolumn=BikepointID)
+    AggregatedData
+    | sort by BikepointID
+    | render columnchart with (ycolumns=No_Bikes, xcolumn=BikepointID)
     ```
 
     ![Screenshot of query showing column chart of bikes by bike point ID.](media/bikes-by-bikepoint.png)
