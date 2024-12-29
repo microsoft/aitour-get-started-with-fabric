@@ -15,7 +15,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
    ![Screenshot of Real-time hub with sample data highlighted.](media/sample-data.png)
 
 4. On the **Connect page**, for **Source name**, enter +++_TutorialSource_+++.
-5. In the **Stream details** section, under _Workspace_ select your workpace and then select the pencil icon, and change the name of the eventstream to +++_TutorialEventstream_+++, and then select **Next**.
+5. In the **Stream details** section, under _Workspace_ select your workpace and then select the pencil icon, and change the name of the eventstream to +++_TutorialEventstream_+++, notice that it will automatically assign the **Stream name** to be _TutorialEventstream-stream_. Select **Next**.
 
    ![Screenshot of connect window in Real-Time hub.](media/connect-source.png)
 
@@ -33,7 +33,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
    ![Screenshot showing the edit button in Real-Time Intelligence.](media/event-stream-edit-button.png)
 
-3. In the event stream authoring canvas select the down arrow on the **Transform events or add destination** tile, and then select **Manage fields**. The tile is renamed to _ManageFields_.
+3. In the event stream authoring canvas select the down arrow on the **Transform events or add destination** tile, and then select **Manage fields**.
 
    ![Screenshot showing the transform events or add destination tile in Real-Time Intelligence.](media/transform-events.png)
 
@@ -49,11 +49,11 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
    iv. From the **Field** dropdown, expand **Built-in Date Time Function** then select **SYSTEM.Timestamp()**.
 
+   ![Screenshot showing the system timestamp selected in the event stream manage fields tile in Real-Time Intelligence.](media/system-timestamp.png)
+
    v. Enter +++_Timestamp_+++ as the **Name**.
 
    vi. Select **Add**.
-
-   ![Screenshot showing the system timestamp selected in the event stream manage fields tile in Real-Time Intelligence.](media/system-timestamp.png)
 
 7. Confirm that **Timestamp** is added to the field list, and select **Save**. The _TutorialTransform_ tile now displays but with an error, because the destination isn't configured yet.
 
