@@ -20,8 +20,8 @@ This folder contains the public facing files for the lab `Microsoft Fabric: Star
    - **Email**: +++@lab.CloudPortalCredential(User1).Username+++
    - **Password**: +++@lab.CloudPortalCredential(User1).Password+++
 3. Complete the sign up process to create a new account.
-4. After signing in to Teams, select **OK** when prompted to stay signed in to all your apps and then select **Done** to complete.
-5. Choose **Activate / Explore / Unlock Trial** and when prompted allow Teams to be the default app for chats and calls select **Continue**.
+4. After signing in to Teams, select **OK** when prompted to stay signed in to all your apps and then select **Done** to complete. Wait until the process finishes and the **Start trial** option appears.
+5. Choose **Start Trial** and when prompted allow Teams to be the default app for chats and calls select **Continue**. If the process fails, please click the Retry button until it succeeds.
 
 ## Exercises in this lab
 
@@ -35,7 +35,7 @@ Now you're ready to complete the exercises in this lab. The lab includes multipl
 
 The exercises are designed to be completed in order because they build on the data and resources created in the previous exercises, so make sure you complete each exercise before moving on to the next one.
 
-Don't worry if you run out of time to complete the entire lab. All of these exercises (and more) are available on [Microsoft Learn](https://learn.microsoft.com/fabric/real-time-intelligence/tutorial-introduction). You can also find instructions on [Activating a Fabric trial](https://learn.microsoft.com/en-us/fabric/get-started/fabric-trial) on Microsoft Learn.
+Don't worry if you run out of time to complete the entire lab. All of these exercises (and more) are available on [Microsoft Learn](https://learn.microsoft.com/fabric/real-time-intelligence/tutorial-introduction). You can also find more details about [Activating a Fabric trial](https://learn.microsoft.com/en-us/fabric/get-started/fabric-trial) on Microsoft Learn.
 
 Select **Next >** to go to the first exercise.
 
