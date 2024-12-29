@@ -4,7 +4,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 
 ## Create an event stream
 
-1. From the navigation bar, select **Real-Time**. You may get a dialog Welcome to Real-Time hub. Click **Get started** to close the dialog.
+1. From the left navigation bar, select **Real-Time**. You may get a dialog Welcome to Real-Time hub. Click **Get started** to close the dialog.
 
 2. Select **+ Connect data source**.
 
