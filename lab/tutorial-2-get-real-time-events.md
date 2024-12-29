@@ -26,7 +26,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
 ## Transform events - add a timestamp
 
 1. On the **Review + connect** page, select **Open Eventstream**.
-   
+
    You can also browse to the eventstream from the **My data streams** by selecting the stream and then selecting **Open Eventstream**.
 
 2. From the menu ribbon, select **Edit**. The authoring canvas, which is the center section, turns yellow and becomes active for changes.
@@ -65,7 +65,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an event stre
    A new tile is created entitled _Eventhouse_. A new tile is created entitled _Eventhouse_.
 
 3. Select the pencil icon on the _Eventhouse_ tile.
-   
+
       ![Screenshot showing the Eventhouse pane in Real-Time Intelligence.](media/pencil-on-event-house.png)
 
 4. Enter the following information in the **Eventhouse** pane:

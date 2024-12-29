@@ -12,7 +12,7 @@ In this part of the tutorial, you learn how to create a Real-Time Dashboard in R
 
     ![Screenshot of query showing column chart of bikes by bike point ID.](media/bikes-by-bikepoint.png)
 
-2. Select **Pin to dashboard**. 
+2. Select **Pin to dashboard**.
 3. Enter the following information:
 
     ![Screenshot of pinning query to dashboard in Real-Time Intelligence.](media/pin-dashboard.png)
@@ -54,9 +54,9 @@ Since you've selected **Open dashboard after creation**, the new Real-Time dashb
 5. Select **+ Add grouping**.
 6. Select **Group by** > *Street*.
 7. Select **Apply**.
-    
+
     ![Screenshot showing the aggregation tool.](media/aggregation-tool.png)
-    
+
     Notice that the query elements are updated to include the **max(No_Bikes) by Street** aggregation. The resulting table changed to show the total count of bike locations by street.
 
 8. Change the **Visual type** to **Bar chart**.
