@@ -8,7 +8,7 @@
 
 | Resources          | Links                             | Description        |
 |:-------------------|:----------------------------------|:-------------------|
-| Session slides     | [View    ](https://aka.ms/AArxprb) | Review the slides at your own pace |
+| Session slides     | [View](https://aka.ms/AArxprb) | Review the slides at your own pace |
 | Fabric Updates blog     | [Fabric Updates blog](https://blog.fabric.microsoft.com/) | Read about the latest product updates |
 | Fabric Roadmap    | [Fabric Roadmap](https://aka.ms/FabricRoadmap) | Be in the know with the latest developments and upcoming features. |
 | Microsoft Copilot for Data Analysts or Data Engineers  | [Learn](https://aka.ms/aitour-data-clh) | Learn more Coplot for Data professionals with this collection of resources on Microsoft Learn |
@@ -18,11 +18,10 @@
 
 ## Links shared during the presentation
 
-For your convenience, here is a list of all the links shared as QR codes during the presentation: 
+For your convenience, here is a list of all the links shared as QR codes during the presentation:
 
-- https://aka.ms/realtimelearningpath
-- https://aka.ms/aitour-data-rti
-
+- [https://aka.ms/realtimelearningpath]
+- [https://aka.ms/aitour-data-rti]
 
 ## Dive Deeper into Microsoft Fabric
 
@@ -31,7 +30,6 @@ For your convenience, here is a list of all the links shared as QR codes during 
 This is your chance to dive deep into the future of AI and cloud innovation, leveraging the powerful capabilities of Microsoft Fabric and Azure OpenAI services. Whether you're an AI enthusiast, a cloud computing expert, or a database guru, this hackathon is the perfect platform to showcase your skills and creativity.
 
 [Join the Microsoft Fabric and AI Learning Hackathon on Devpost](https://microsoftfabric.devpost.com)
-
 
 ### 👩‍💻 Microsoft Fabric Career Hub
 
@@ -57,7 +55,7 @@ Get ready for [DP-600: Implementing Analytics Solutions Using Microsoft Fabric](
 
 ## 💬 Join the Microsoft Fabric Community
 
-Connect with fellow Fabric enthusiasts and experts. Your one-stop community hub: https://community.fabric.microsoft.com/. Here's what you'll find:
+Connect with fellow Fabric enthusiasts and experts. Your one-stop community hub: <https://community.fabric.microsoft.com/>. Here's what you'll find:
 
 - Interactive forums, like the [Synapse Forum](https://community.fabric.microsoft.com/t5/Synapse-forums/ct-p/AC-Community).
 - A global directory of [Fabric User Groups](https://community.fabric.microsoft.com/t5/Fabric-User-Groups/ct-p/fbc_usergroups).
