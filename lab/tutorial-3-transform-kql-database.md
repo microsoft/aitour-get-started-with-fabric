@@ -9,7 +9,7 @@ In this step, you move the raw data table into a Bronze folder to organize the d
 1. Copy/paste the following command to alter table to move table into a Bronze folder.
 
     ```kusto
-    .alter table RawData (BikepointID:string,Street:string,Neighbourhood:string,Latitude:dynamic,Longitude:dynamic,No_Bikes:long,No_Empty_Docks:long,Timestamp:datetime) with (folder="Bronze")
+    .alter table RawData (BikepointID: string, Street: string, Neighbourhood: string, Latitude: dynamic, Longitude: dynamic, No_Bikes: long, No_Empty_Docks: long, Timestamp: datetime) with (folder="Bronze")
     ```
 
 ## Create target table
@@ -37,8 +37,11 @@ In this step, you create a stored function that holds the transformation logic t
 3. Edit the function so that it matches the following code, or copy/paste the following command into the query editor.
 
     ```kusto
-    .create-or-alter function TransformRawData() { 
-        RawData | parse BikepointID with * "BikePoints_" BikepointID:int | extend BikesToBeFilled = No_Empty_Docks - No_Bikes | extend Action = iff(BikesToBeFilled > 0, tostring(BikesToBeFilled), "NA") 
+    .create-or-alter function TransformRawData() {
+        RawData
+        | parse BikepointID with * "BikePoints_" BikepointID: int
+        | extend BikesToBeFilled = No_Empty_Docks - No_Bikes
+        | extend Action = iff(BikesToBeFilled > 0, tostring(BikesToBeFilled), "NA")
     }
     ```
 
