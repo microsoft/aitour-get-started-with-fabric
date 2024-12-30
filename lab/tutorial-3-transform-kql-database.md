@@ -4,7 +4,7 @@ In this part of the tutorial, you learn how to use an update policy to transform
 
 ## Move raw data table to a bronze folder
 
-In this step, you move the raw data table into a Bronze folder to organize the data in the KQL database.
+In this step, we will transfer the raw data from the table into a _Bronze_ folder to organize it within the KQL database, following the principles of the Medallion architecture. The _Medallion architecture_ is a data design pattern used to organize data logically. Its goal is to incrementally and progressively improve the structure and quality of data as it flows through each layer of the architecture (from Bronze ⇒ Silver ⇒ Gold layer tables). We will see this in action in this example.
 
 1. Copy/paste the following command to alter table to move table into a Bronze folder.
 
