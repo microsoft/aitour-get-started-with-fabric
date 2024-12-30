@@ -31,7 +31,7 @@ A Power BI report is a multi-perspective view into a semantic model, with visual
 1. In the top left corner of the ribbon, select **File** > **Save**.
 2. Enter the name +++*TutuorialReport*+++ and choose your workspace.
 3. Select **Continue**.
-4. Select **Open the file in Power BI to view, edit, and get a shareable link.**
+4. Select **Open the file in Power BI to view, edit, and get a shareable link.** You may need to log-in again to view the report.
 
 Now that you have created a Power BI report, your data is visualized in a way that is easy to understand and share with others. It's time to set an alert on your event stream to receive a notification in Teams when the number of bikes falls below a certain threshold.
 

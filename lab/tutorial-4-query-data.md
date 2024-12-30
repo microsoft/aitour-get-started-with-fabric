@@ -4,9 +4,9 @@ In this part of the tutorial, you learn how to query your streaming data in a [K
 
 ## Write a KQL query
 
-The name of the table you created in a previous step is *TransformedData*. Use this (case-sensitive) name as the data source for your query.
+The name of the table you created in a previous step is _TransformedData_. Use this (case-sensitive) name as the data source for your query.
 
-1. In the query editor, delete the pre-populated queries and enter the following query. Then press **Shift + Enter** to run the query.
+1. Create a new query editor and enter the following query. Then press **Shift + Enter** to run the query.
 
      ```kusto
     TransformedData
@@ -15,7 +15,7 @@ The name of the table you created in a previous step is *TransformedData*. Use t
     | render timechart
     ```
 
-    This query creates a time chart that shows the number of bikes in the Chelsea neighborhood as a time chart.
+    This query creates a time chart that shows the number of bikes in the Chelsea neighborhood as a time chart. Note that the visual output may vary based on the real-time data available.
 
     ![Screenshot showing the source deactivated in Real-Time Intelligence.](media/bikes-timechart.png)
 
