@@ -13,7 +13,7 @@ In this step, we will transfer the raw data from the table into a _Bronze_ folde
 The most common KQL query is a tabular expression with operators that take a tabular input and return a tabular output. Operators are sequenced by a | (pipe). Data flows, or is piped, from one operator to the next, being filtered or manipulated at each step. Learn more KQL in the [Kusto Query Language (KQL) overview](https://learn.microsoft.com/en-us/kusto/query/) docs.
 ![Screenshot showing the KQL database view focusing on the Tutorial queryset.](media/kql-queryset.png)
 
-3. Copy/paste the following command to alter the existing _RawData_ table to be into the _Bronze_ folder.
+3. Copy/paste the following code to alter the existing _RawData_ table to be into the _Bronze_ folder.
 
     ```kusto
     .alter table RawData (
@@ -27,6 +27,8 @@ The most common KQL query is a tabular expression with operators that take a tab
         Timestamp: datetime)
         with (folder="Bronze")
     ```
+
+In case the KQL code does not look as expected, you can use the **KQL Tools** > **Open command palette** > **Format Document** option to autoformat the code.
 
 ## Create target table
 
