@@ -6,10 +6,11 @@ A Power BI report is a multi-perspective view into a semantic model, with visual
 
 1. Browse to the KQL database you created in a previous step, named *Tutorial*.
 2. In the object tree, under the KQL database name, select the default KQL queryset called **Tutorial_queryset**.
-3. Copy and paste the following query into the query editor. The output of this query is used as the semantic model for building the Power BI report. 
+3. Copy and paste the following query into the query editor. The output of this query is used as the semantic model for building the Power BI report.
 
     ```kusto
-    RawData | summarize arg_max(Timestamp, No_Bikes,  No_Empty_Docks, Neighbourhood, Lat=todouble(Latitude), Lon=todouble(Longitude)) by BikepointID
+    RawData
+    | summarize arg_max(Timestamp, No_Bikes, No_Empty_Docks, Neighbourhood, Lat=todouble(Latitude), Lon=todouble(Longitude)) by BikepointID
     ```
 
 4. Select **Create Power BI report**. The Power BI report editor opens with the query result available as a data source named **Kusto Query Result**.
@@ -28,9 +29,9 @@ A Power BI report is a multi-perspective view into a semantic model, with visual
 ### Save the report
 
 1. In the top left corner of the ribbon, select **File** > **Save**.
-2. Enter the name +++*TutuorialReport*+++ and choose your workspace.
+2. Enter the name +++*TutorialReport*+++ and choose your workspace.
 3. Select **Continue**.
-4. Select **Open the file in Power BI to view, edit, and get a shareable link.**
+4. Select **Open the file in Power BI to view, edit, and get a shareable link.** You may need to log-in again to view the report.
 
 Now that you have created a Power BI report, your data is visualized in a way that is easy to understand and share with others. It's time to set an alert on your event stream to receive a notification in Teams when the number of bikes falls below a certain threshold.
 

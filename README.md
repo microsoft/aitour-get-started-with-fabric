@@ -15,6 +15,7 @@ Analysis of real-time data streams is a critical capability for any modern data 
 The sample data you'll use in this lab is a set of bicycle data, containing information about bike ID, location, timestamp, and more. You'll learn how to set up resources, ingest data, set alerts on the data, and visualize the data to extract insights.
 
 In this lab you will learn how to:
+
 - Set up your environment
 - Get data in the Real-Time hub
 - Transform events

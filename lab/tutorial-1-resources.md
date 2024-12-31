@@ -3,6 +3,7 @@
 In this part of the tutorial, you set up the environment. Specifically, you create a *workspace* and an *eventhouse*, which automatically creates a child KQL database, and then you enable OneLake availability.
 
 ## Create a workspace
+
 1. In the virtual machine, open a web browser and browse to +++https://app.fabric.microsoft.com+++.
 2. When prompted, sign in using the following credentials:
     * **Email**: +++@lab.CloudPortalCredential(User1).Username+++
@@ -28,7 +29,6 @@ In this part of the tutorial, you set up the environment. Specifically, you crea
     ![Screenshot showing the diamond icon next to the workspace name.](media/workspace-diamond-icon.png)
 
     If the diamond icon is not present, select **Workspace Settings** >  **License Info**. On the License Configuration tile, Select the **Edit**, under License Mode select **Trial**  and finally select *Select License*.
-
 
 3. On the bottom left experience switcher, select **Real-Time Intelligence**.
 
