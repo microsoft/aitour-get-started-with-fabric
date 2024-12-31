@@ -28,7 +28,10 @@ The most common KQL query is a tabular expression with operators that take a tab
         with (folder="Bronze")
     ```
 
-In case the KQL code does not look as expected, you can use the **KQL Tools** > **Open command palette** > **Format Document** option to autoformat the code.
+> [!IMPORTANT]
+> Due to some quirks in the platform's copy-paste functionality, the code format might become incorrect. If this happens, check for any extra symbols like `)`, `}`, `]` or incorrect code `TAB` formatting and adjust your code to match the lab snippet.
+>
+> Remember that you can auto-format the KQL code so it looks as expected by using the **KQL Tools** > **Open command palette** > **Format Document** option.
 
 ## Create target table
 
