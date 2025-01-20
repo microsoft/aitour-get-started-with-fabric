@@ -67,10 +67,7 @@ In this step, you will create a stored function that holds the transformation lo
 
     ```kusto
     .create-or-alter function TransformRawData() {
-        RawData
-        | parse BikepointID with * "BikePoints_" BikepointID: int
-        | extend BikesToBeFilled = No_Empty_Docks - No_Bikes
-        | extend Action = iff(BikesToBeFilled > 0, tostring(BikesToBeFilled), "NA")
+        RawData | parse BikepointID with * "BikePoints_" BikepointID: int | extend BikesToBeFilled = No_Empty_Docks - No_Bikes | extend Action = iff(BikesToBeFilled > 0, tostring(BikesToBeFilled), "NA")
     }
     ```
 

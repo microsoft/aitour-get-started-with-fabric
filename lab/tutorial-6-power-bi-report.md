@@ -9,8 +9,7 @@ A Power BI report is a multi-perspective view into a semantic model, with visual
 3. Copy and paste the following query into the query editor. The output of this query is used as the semantic model for building the Power BI report.
 
     ```kusto
-    RawData
-    | summarize arg_max(Timestamp, No_Bikes, No_Empty_Docks, Neighbourhood, Lat=todouble(Latitude), Lon=todouble(Longitude)) by BikepointID
+    RawData | summarize arg_max(Timestamp, No_Bikes, No_Empty_Docks, Neighbourhood, Lat=todouble(Latitude), Lon=todouble(Longitude)) by BikepointID
     ```
 
 4. Select **Create Power BI report**. The Power BI report editor opens with the query result available as a data source named **Kusto Query Result**.
