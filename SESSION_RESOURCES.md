@@ -25,11 +25,11 @@ For your convenience, here is a list of all the links shared as QR codes during 
 
 ## Dive Deeper into Microsoft Fabric
 
-### 👷‍♀️ Microsoft Fabric and AI Learning Hackathon
+### 🤓 Limited-time offer! Get certified in Microsoft Fabric—for half-price
 
-This is your chance to dive deep into the future of AI and cloud innovation, leveraging the powerful capabilities of Microsoft Fabric and Azure OpenAI services. Whether you're an AI enthusiast, a cloud computing expert, or a database guru, this hackathon is the perfect platform to showcase your skills and creativity.
+Get ready to fast-track your career in data and AI by earning your Microsoft Certified: Fabric Data Engineer Associate certification (Exam DP-700). There's no faster way to climb the ladder than with industry-recognized Microsoft certifications!
 
-[Join the Microsoft Fabric and AI Learning Hackathon on Devpost](https://microsoftfabric.devpost.com)
+[I am ready for DP-700](https://aka.ms/iamready/dp700)
 
 ### 👩‍💻 Microsoft Fabric Career Hub
 
