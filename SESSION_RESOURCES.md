@@ -8,7 +8,7 @@
 
 | Resources          | Links                             | Description        |
 |:-------------------|:----------------------------------|:-------------------|
-| Session slides     | [View](https://aka.ms/AArxprb) | Review the slides at your own pace |
+| Session slides     | [View](https://aka.ms/AArxprg) | Review the slides at your own pace |
 | Fabric Updates blog     | [Fabric Updates blog](https://blog.fabric.microsoft.com/) | Read about the latest product updates |
 | Fabric Roadmap    | [Fabric Roadmap](https://aka.ms/FabricRoadmap) | Be in the know with the latest developments and upcoming features. |
 | Microsoft Copilot for Data Analysts or Data Engineers  | [Learn](https://aka.ms/aitour-data-clh) | Learn more Coplot for Data professionals with this collection of resources on Microsoft Learn |
