@@ -9,7 +9,10 @@ The name of the table you created in a previous step is _TransformedData_. Use t
 1. Create a new query editor and enter the following query. Then press **Shift + Enter** to run the query.
 
      ```kusto
-    TransformedData | where BikepointID > 100 and Neighbourhood == "Chelsea" | project Timestamp, No_Bikes | render timechart
+    TransformedData 
+    | where BikepointID > 100 and Neighbourhood == "Chelsea" 
+    | project Timestamp, No_Bikes 
+    | render timechart
     ```
 
     This query creates a time chart that shows the number of bikes in the Chelsea neighborhood as a time chart. Note that the visual output may vary based on the real-time data available.
@@ -24,15 +27,17 @@ In this step, you create a materialized view, which returns an up-to-date result
 
     ``` kusto
     .create-or-alter materialized-view with (folder="Gold") AggregatedData on table TransformedData {
-        TransformedData | summarize arg_max(Timestamp, No_Bikes) by BikepointID
+        TransformedData 
+        | summarize arg_max(Timestamp, No_Bikes) by BikepointID
     }
     ```
 
-2. Remove the extra curly bracket '}' and run the command to create the materialized view.
-3. Copy/paste and run the following query to see the data in the materialized view visualized as a column chart:
+2. Copy/paste and run the following query to see the data in the materialized view visualized as a column chart:
 
     ```kusto
-    AggregatedData | sort by BikepointID | render columnchart with (ycolumns=No_Bikes, xcolumn=BikepointID)
+    AggregatedData 
+    | sort by BikepointID 
+    | render columnchart with (ycolumns=No_Bikes, xcolumn=BikepointID)
     ```
 
 You will use this query in the next step to create a Real-Time dashboard.

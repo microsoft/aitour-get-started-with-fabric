@@ -28,11 +28,6 @@ The most common KQL query is a tabular expression with operators that take a tab
         with (folder="Bronze")
     ```
 
-> [!IMPORTANT]
-> Due to some quirks in the platform's copy-paste functionality, the code format might become incorrect. If this happens, check for any extra symbols like `)`, `}`, `]` or incorrect code `TAB` formatting and adjust your code to match the lab snippet.
->
-> Remember that you can auto-format the KQL code so it looks as expected by using the **KQL Tools** > **Open command palette** > **Format Document** option.
-
 ## Create target table
 
 In this step, you will create a target table that will be used to store the transformed data in a _Silver_ folder.
@@ -67,11 +62,12 @@ In this step, you will create a stored function that holds the transformation lo
 
     ```kusto
     .create-or-alter function TransformRawData() {
-        RawData | parse BikepointID with * "BikePoints_" BikepointID: int | extend BikesToBeFilled = No_Empty_Docks - No_Bikes | extend Action = iff(BikesToBeFilled > 0, tostring(BikesToBeFilled), "NA")
+        RawData 
+        | parse BikepointID with * "BikePoints_" BikepointID: int 
+        | extend BikesToBeFilled = No_Empty_Docks - No_Bikes 
+        | extend Action = iff(BikesToBeFilled > 0, tostring(BikesToBeFilled), "NA")
     }
-    ```
-
-5. Remove the extra closing curly bracket '}' and run the command to create the function.
+    ``` 
     You should now see the function **TransformedRawData** under the **Functions** node in the object tree.
 
 ## Apply update policy
@@ -98,8 +94,6 @@ In this step, you apply an update policy to the _TransformedData_ table using th
     ```
     ~~~
 
-5. Remove the extra closing square and curly brackets '}]' and run the command to create the update policy.
-
 ## Verify transformation
 
 In this step, you verify that the transformation was successful by comparing the output from the source and target tables.
@@ -110,13 +104,15 @@ In this step, you verify that the transformation was successful by comparing the
 1. Create a new KQL script and copy/paste the following query to view 10 records from  the _RawData_ source table. Run the query.
 
     ```kusto
-    RawData | take 10
+    RawData 
+    | take 10
     ```
 
 2. Copy/paste the following query into a new KQL editor to view 10 records from the _TransformedData_ target table. Run the query.
 
     ```kusto
-    TransformedData | take 10
+    TransformedData 
+    | take 10
     ```
 
 Notice that the BikepointID column in the target table no longer contains the prefix "BikePoints_".
