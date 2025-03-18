@@ -56,6 +56,11 @@ Note: Timings are approximate but overall, should allow a buffer for extending a
 | 27:10 - 40:00 | Lab Completion + Calls to Action |
 | 40:00 - 42:00 | Closing / Calls to Action |
 
+### PowerPoint Slides in additional languages
+| Language | Last updated | 
+|------------------- | ---- |
+| [Japanese](https://aka.ms/AAv0e68) | 2025.03.18 | 
+
 ## Lab
 
 > During the presentation, the audience will be completing a lab. Ensure to leave 45 minutes for the audience to complete the lab after activating their Fabric and Teams trials. Give 15 minutes for the audience to start the lab and then continue with the presentation as they complete it.
@@ -72,3 +77,11 @@ For field stops, please make sure to that the audience has the following require
 6. Once these steps are completed, the audience can start the lab by following the instructions under the lab folder in this repo.
 
 > People using their work accounts will need to ask their IT department to enable the Map Visual and Data Activator in Power BI. This can be done by turning the Map and Data Activator toggles on in the Power BI Admin Portal.
+
+## Change Log
+
+Here is a log of the changes made to this file:
+
+| Date       | Changes |
+|------------|---------|
+| 2025.03.18 | Added Change log, Additional language section with Japanese PowerPoint slides |
